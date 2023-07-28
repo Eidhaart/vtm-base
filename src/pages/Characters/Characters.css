@@ -1,0 +1,48 @@
+.player-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  gap: 50px;
+  max-width: 1500px;
+  margin-top: 20%;
+  transition: all .5s;
+}
+
+.card.big h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Diablo';
+}
+
+.card.big {
+  width: 450px;
+  height: 450px;
+  transition: all .5s;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .player-cards {
+    grid-template-columns: repeat(1, minmax(250px, 2fr));
+    gap: 50px;
+    margin-top: 30%;
+    transition: all .5s;
+  }
+  .card.big {
+    width: 450px;
+    height: 350px;
+    transition: all .5s;
+  }
+}
+@media screen and (max-width: 450px) {
+  .player-cards {
+    grid-template-columns: repeat(1, minmax(250px, 2fr));
+    gap: 50px;
+    margin-top: 60%;
+    transition: all .5s;
+  }
+  .card.big {
+    width: 250px;
+    height: 350px;
+    transition: all .5s;
+  }
+}

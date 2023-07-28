@@ -1,0 +1,14 @@
+@media screen and (min-width: 1500px) {
+  .npc-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10px, 1fr));
+    margin-top: -50px !important;
+    max-width: 1700px;
+    margin-right: 8%;
+    transition: all .5s;
+  }
+}
+
+.npc-container {
+  margin-top: 100px;
+}

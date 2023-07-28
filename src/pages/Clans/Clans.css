@@ -1,0 +1,84 @@
+/* Modify wrapper to have two columns */
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  height: 90%;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: scroll;
+  position: absolute;
+  left: 0;
+  top: 90px;
+}
+
+/* Modify grid-template-columns to create two columns */
+.accordion {
+  display: grid;
+  gap: 3px;
+  width: 90%; /* optional, depending on your layout */
+  margin-left: -10px;
+}
+
+/* The rest of the CSS remains the same */
+.item {
+  background: #30303a;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 93%;
+}
+
+.item.selected {
+  margin-bottom: 105px !important;
+
+  transition: all 1s;
+}
+
+.item img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+
+  margin-bottom: -20px;
+  filter: none;
+}
+
+.title {
+  color: white;
+  font-family: "diablo";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.desc {
+  padding-top: 20px;
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #30303a;
+  font-family: "baskerville";
+  height: 0px;
+  width: 80%;
+  font-size: 0px;
+  transition: all .5s;
+  padding-left: 12%;
+}
+
+.desc.show {
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  height: auto;
+  max-height: 9999px;
+  margin-top: 50px;
+  width: 80%;
+  font-size: 18px;
+  transition: all .5s;
+}

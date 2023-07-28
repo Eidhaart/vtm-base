@@ -1,0 +1,12 @@
+body {
+  background-image: url("../../../public/assets/SmokeBackground.jpeg");
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+
+  overflow: scroll;
+  margin-top: 10%;
+}

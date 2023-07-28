@@ -1,0 +1,146 @@
+.cardContainer.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+.cardContainer.left {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  .cardContainer.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .cardContainer.right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cardContainer.left {
+    display: flex;
+    flex-direction: column;
+    transition: all .5s;
+  }
+  .cardContainer.right {
+    display: flex;
+    flex-direction: column;
+    transition: all .5s;
+  }
+}
+
+.imageContainer {
+  position: relative;
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.cornerImg.left {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px; /* Adjust based on your needs */
+  height: auto;
+  filter: invert(1);
+}
+
+.cornerImg.right {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px; /* Adjust based on your needs */
+  height: auto;
+  filter: invert(1);
+}
+
+.cardContainer:hover {
+  transform: scale(1.01);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.cardImg {
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.cardInfo {
+  flex-grow: 1;
+}
+
+.cardInfo.left h3 {
+  margin: 0;
+  font-family: 'Diablo', serif;
+}
+
+.cardInfo.left p {
+  margin: 0;
+  max-width: 900px;
+  text-align: justify;
+  margin-right: 10px;
+}
+.cardInfo.right h3 {
+  margin: 0;
+  font-family: 'Diablo', serif;
+  text-align: end;
+  margin-right: 20px;
+}
+
+.cardInfo.right p {
+  margin: 0;
+  max-width: 900px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.prince h3 {
+  color: rgb(162, 0, 255) !important;
+}
+.primogen h3 {
+  color: red !important;
+}
+.sherrif h3 {
+  color: rgb(255, 145, 0) !important;
+}
+.primogen h3 {
+  color: red !important;
+}

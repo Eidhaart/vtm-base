@@ -1,0 +1,111 @@
+/* styles.css (or your preferred CSS file) */
+
+/* Set background color for the whole page */
+button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-family: "poppins";
+  padding-top: 10%;
+}
+button p {
+  font-family: "poppins";
+  filter: opacity(50%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Card container styles */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1500px;
+  margin-top: 20%;
+}
+
+@media screen and (max-width: 1300px) {
+  .card-container {
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    margin-left: -40px;
+  }
+  .card {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card-container {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    margin-left: -20px;
+  }
+  .card {
+    flex: 50%;
+  }
+}
+
+/* Card styles */
+.card {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2px;
+  /* padding: 16px; */
+  height: 350px;
+  width: 250px;
+  text-align: center;
+
+  transition: box-shadow 0.3s, transform 0.3s;
+  /* Required for the glass-like effect */
+}
+
+.card img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 40%;
+  object-fit: cover;
+  transition-duration: .5s;
+  filter: opacity(50%);
+}
+/* Glass-like effect */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  border-radius: 8px;
+}
+
+/* Hover styles */
+.card:hover {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transform: scale(1.03);
+  transition-duration: .5s;
+}
+.card:hover  img {
+  filter: opacity(100%);
+  transition-duration: .5s;
+}
+
+/* Optional: Add any other custom styles for the content inside the card */
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 8px 0;
+}

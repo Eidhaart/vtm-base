@@ -1,0 +1,17 @@
+.legend {
+  position: fixed;
+  top: 50%;
+  height: 300px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.945);
+  z-index: 10;
+  margin-left: -10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.legend-item {
+  width: 10px;
+  height: 10px;
+  background-color: blueviolet;
+}
