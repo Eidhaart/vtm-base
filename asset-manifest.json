@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/vtm-base/static/css/main.a09e6b6a.css",
-    "main.js": "/vtm-base/static/js/main.c7b7eb0e.js",
-    "static/js/787.4c822ba6.chunk.js": "/vtm-base/static/js/787.4c822ba6.chunk.js",
-    "static/media/handbook.pdf": "/vtm-base/static/media/handbook.948d7ceadde773f93cdc.pdf",
-    "static/media/Dzielnice.png": "/vtm-base/static/media/Dzielnice.167f92036980484b9706.png",
-    "static/media/op3.jpg": "/vtm-base/static/media/op3.353ce3c06432349beab6.jpg",
-    "static/media/Sztokholm.jpg": "/vtm-base/static/media/Sztokholm.5b0d86abf3511704b7f7.jpg",
-    "static/media/op1.png": "/vtm-base/static/media/op1.aa885fb87e4ebca3793c.png",
-    "static/media/smoke.jpeg": "/vtm-base/static/media/smoke.5ad954eb73acc3bffb0f.jpeg",
-    "static/media/op2.png": "/vtm-base/static/media/op2.1970b63309ba69425797.png",
-    "static/media/stockholm.png": "/vtm-base/static/media/stockholm.8512e15c200539419aa4.png",
-    "index.html": "/vtm-base/index.html",
-    "main.a09e6b6a.css.map": "/vtm-base/static/css/main.a09e6b6a.css.map",
-    "main.c7b7eb0e.js.map": "/vtm-base/static/js/main.c7b7eb0e.js.map",
-    "787.4c822ba6.chunk.js.map": "/vtm-base/static/js/787.4c822ba6.chunk.js.map"
+    "main.css": "/vtm-base/home/static/css/main.f1183093.css",
+    "main.js": "/vtm-base/home/static/js/main.45b11661.js",
+    "static/js/787.4c822ba6.chunk.js": "/vtm-base/home/static/js/787.4c822ba6.chunk.js",
+    "static/media/handbook.pdf": "/vtm-base/home/static/media/handbook.948d7ceadde773f93cdc.pdf",
+    "static/media/Dzielnice.png": "/vtm-base/home/static/media/Dzielnice.167f92036980484b9706.png",
+    "static/media/op3.jpg": "/vtm-base/home/static/media/op3.353ce3c06432349beab6.jpg",
+    "static/media/Sztokholm.jpg": "/vtm-base/home/static/media/Sztokholm.5b0d86abf3511704b7f7.jpg",
+    "static/media/op1.png": "/vtm-base/home/static/media/op1.aa885fb87e4ebca3793c.png",
+    "static/media/smoke.jpeg": "/vtm-base/home/static/media/smoke.5ad954eb73acc3bffb0f.jpeg",
+    "static/media/op2.png": "/vtm-base/home/static/media/op2.1970b63309ba69425797.png",
+    "static/media/stockholm.png": "/vtm-base/home/static/media/stockholm.8512e15c200539419aa4.png",
+    "index.html": "/vtm-base/home/index.html",
+    "main.f1183093.css.map": "/vtm-base/home/static/css/main.f1183093.css.map",
+    "main.45b11661.js.map": "/vtm-base/home/static/js/main.45b11661.js.map",
+    "787.4c822ba6.chunk.js.map": "/vtm-base/home/static/js/787.4c822ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a09e6b6a.css",
-    "static/js/main.c7b7eb0e.js"
+    "static/css/main.f1183093.css",
+    "static/js/main.45b11661.js"
   ]
 }
