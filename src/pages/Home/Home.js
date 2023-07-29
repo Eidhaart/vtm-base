@@ -8,7 +8,7 @@ const cardData = [
     desc: "",
     link: "/gracz",
     src:
-      "https://drive.google.com/uc?export=view&id=1MfxdtXudTcni_bIbBtrDVCdq0vNR0pzk"
+      "https://drive.google.com/uc?export=view&id=1f3Ph8mr9zyENZoKrBQm5UvfRJldmQJB8"
   },
   {
     title: "Klany",
@@ -58,7 +58,7 @@ const cardData = [
     link: "/podrecznik",
     src:
       "https://drive.google.com/uc?export=view&id=1MfxdtXudTcni_bIbBtrDVCdq0vNR0pzk"
-  },
+  }
 
   // Add more cards with different values here
 ];
