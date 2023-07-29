@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vtm-base/static/css/main.a09e6b6a.css",
-    "main.js": "/vtm-base/static/js/main.c7b7eb0e.js",
+    "main.js": "/vtm-base/static/js/main.b92d3b3a.js",
     "static/js/787.4c822ba6.chunk.js": "/vtm-base/static/js/787.4c822ba6.chunk.js",
     "static/media/handbook.pdf": "/vtm-base/static/media/handbook.948d7ceadde773f93cdc.pdf",
     "static/media/Dzielnice.png": "/vtm-base/static/media/Dzielnice.167f92036980484b9706.png",
@@ -13,11 +13,11 @@
     "static/media/stockholm.png": "/vtm-base/static/media/stockholm.8512e15c200539419aa4.png",
     "index.html": "/vtm-base/index.html",
     "main.a09e6b6a.css.map": "/vtm-base/static/css/main.a09e6b6a.css.map",
-    "main.c7b7eb0e.js.map": "/vtm-base/static/js/main.c7b7eb0e.js.map",
+    "main.b92d3b3a.js.map": "/vtm-base/static/js/main.b92d3b3a.js.map",
     "787.4c822ba6.chunk.js.map": "/vtm-base/static/js/787.4c822ba6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a09e6b6a.css",
-    "static/js/main.c7b7eb0e.js"
+    "static/js/main.b92d3b3a.js"
   ]
 }
