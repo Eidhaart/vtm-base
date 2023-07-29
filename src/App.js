@@ -7,7 +7,9 @@ import Characters from "./pages/Characters/Characters";
 import Rules from "./pages/Rules";
 import NoPage from "./pages/NoPage";
 import Book from "./pages/Handbook/Book";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Navigate, Routes } from "react-router-dom";
+
+import { Redirect } from "react-router";
 import Modal from "./components/Modal/Modal";
 import NavBar from "./pages/Navbar/NavBar";
 import Admin from "./pages/Admin/Admin";
@@ -41,7 +43,7 @@ const App = () => {
           <Route path="/npc" element={<NPC />} />
           <Route path="/gracz" element={<Player />} />
           <Route path="/login" element={<Login />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
       </BrowserRouter>
     </div>
