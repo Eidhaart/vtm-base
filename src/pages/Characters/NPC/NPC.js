@@ -53,7 +53,7 @@ function NPC() {
               cornerImgSrc={item.cornerImg}
               level={item.level}
               imgSrc={item.imgSrc}
-              title={item.title}
+              title={item.title + ""+" "+"("+item.level+")"}
               description={item.description}
               side={currentSide}
             />
@@ -212,6 +212,30 @@ const data = [
     )
   },
   {
+    clan: "toreador",
+    cornerImg:
+      "https://drive.google.com/uc?export=view&id=1gPJ0fdDOa7LT4LY-PT5h0ic05G1-w80v",
+    level: "primogen",
+    side: "left",
+    imgSrc:
+      "https://drive.google.com/uc?export=view&id=1cGOm2OieEK3t10a8JyxU0Mp2Q-rtZHXf",
+    title: "Isabella (La Dama) Garcia",
+    description: (
+      <div>
+        <p>
+          Urodzona w hiszpanii, Isabella była cenioną tancerką i
+          kurtyzaną w swoim śmiertelnym życiu. Teraz jako Toreador, jej uroda
+          jest ponadczasowa, a ruchy zawsze pełne wdzięku i celowe. Zachowała
+          swoją miłość do sztuki, wpływając na scenę kulturalną Sztokholmu jako
+          influencerka i twórca trendów. Isabella pełni funkcję primogena Toreador,
+          reprezentując interesy swojego klanu w mieście. Pod elegancką i
+          ujmującą powierzchownością posiada sprytny umysł polityczny, co czyni
+          ją szanowaną i wpływową postacią wśród Kindred.
+        </p>
+      </div>
+    )
+  },
+  {
     clan: "ventrue",
     cornerImg:
       "https://drive.google.com/uc?export=view&id=1rkXQvkqfw8SNf2c7vY7yoZtFl5GrD5gG",
@@ -263,7 +287,52 @@ const data = [
     )
   },
   {
-    clan: "nosferatu",
+    clan: "Banu Haqim",
+    cornerImg:
+      "https://drive.google.com/uc?export=view&id=1MgGmKvjiDoyag2erl73L9iPDoxm-QtLc",
+    level: "primogen",
+    side: "left",
+    imgSrc:
+      "https://drive.google.com/uc?export=view&id=15TAP74L5z9isf7_meqq8iRyZ5Amfqxpj",
+    title: "Aisha Rashid",
+    description: (
+      <div>
+        <p>
+          Aisha jest do pewnego stopnia tajemniczą postacią, naukowcem prawa i
+          etyki w swoim śmiertelnym życiu, który teraz służy jako rodzaj
+          sędziego dla Kindred w Sztokholmie. Postawiła sobie za misję
+          egzekwowanie Tradycji i nie boi się brać sprawy w swoje ręce, jeśli
+          sprawiedliwość Księcia jest niewystarczająca. Jej sprawiedliwe, ale
+          surowe podejście zdobyło jej szacunek wśród jej klanu i poza nim.
+        </p>
+      </div>
+    )
+  },
+  {
+    clan: "Ravnos",
+    cornerImg:
+      "https://drive.google.com/uc?export=view&id=1hGyn7ZWeae2UAXMMljTgA917ZB9JJ0Qh",
+    level: "primogen",
+    side: "left",
+    imgSrc:
+      "https://drive.google.com/uc?export=view&id=1B1LkDcryx5L8WvZBQEJoIkERhIxda0p9",
+    title: " Aleksandar (Szelma) Jovanovic",
+    description: (
+      <div>
+        <p>
+          Aleksandar, pochodzący z Serbii, ucieleśnia reputację swojego klanu
+          jako szelmy. Jest doświadczonym iluzjonistą, zarówno w użyciu swojej
+          dyscypliny, jak i w relacjach z innymi Kindred. Aleksandar prowadzi
+          sieć drobnych przestępców i oszustów na terenie całego miasta, często
+          odgrywając rolę figlarnego mediatora w podziemnym świecie miasta.
+          Wielu Kindred podejrzewa go o maczanie palców w każdym torcie, choć
+          nikt nie może tego udowodnić.
+        </p>
+      </div>
+    )
+  },
+  {
+    clan: "tzimisce",
     cornerImg:
       "https://drive.google.com/uc?export=view&id=1T93FenGLkqyIGbccGJbUZVD0Hd8z1I6V",
     level: "primogen",

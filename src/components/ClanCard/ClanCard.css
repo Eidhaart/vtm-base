@@ -1,0 +1,127 @@
+.clanCardContainer.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+
+  padding: 20px;
+  color: #fff;
+  transition: all 0.3s ease;
+  /* margin-left: 10%; */
+  margin-bottom: 10px;
+}
+.clanCardContainer.left {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+
+  padding: 20px;
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  .clanCardInfo.right h3 {
+    font-family: 'Diablo', serif;
+    text-align: end;
+    margin-right: 5px !important;
+  }
+  .clanCardContainer.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+
+    padding: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .clanCardContainer.right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90%;
+    border-radius: 15px;
+
+    padding: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .clanCardContainer.left {
+    display: flex;
+    flex-direction: column;
+    transition: all .5s;
+  }
+  .clanCardContainer.right {
+    display: flex;
+    flex-direction: column;
+    transition: all .5s;
+  }
+}
+
+.clanImageContainer {
+  position: relative;
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.clanCardImg {
+  width: 100%;
+
+  height: auto;
+  margin-right: 20px;
+  filter: invert(1);
+}
+
+.clanCardInfo {
+  flex-grow: 1;
+}
+
+.clanCardInfo.left h3 {
+  margin: 0;
+  font-family: 'Diablo', serif;
+}
+
+.clanCardInfo.left p {
+  margin: 0;
+  max-width: 900px;
+  text-align: justify;
+  margin-right: 10px;
+}
+.clanCardInfo.right h3 {
+  margin: 0;
+  font-family: 'Diablo', serif;
+  text-align: end;
+  margin-right: 45px;
+}
+
+.clanCardInfo.right p {
+  margin: 0;
+  max-width: 900px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.clanfull-container {
+  display: flex;
+  flex-direction: column;
+}
+.clanfull-container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+  margin-bottom: 20px;
+  border-radius: 25px;
+}

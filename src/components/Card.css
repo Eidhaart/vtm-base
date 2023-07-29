@@ -30,6 +30,13 @@ a {
   margin-top: 20%;
 }
 
+.card-container h3 {
+  font-family: "Baskerville";
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
 @media screen and (max-width: 1300px) {
   .card-container {
     grid-template-columns: repeat(3, minmax(0px, 1fr));
@@ -58,9 +65,9 @@ a {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 2px;
+  border-radius: 20px;
   /* padding: 16px; */
-  height: 350px;
+  height: 250px;
   width: 250px;
   text-align: center;
 
@@ -73,10 +80,11 @@ a {
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 40%;
+  height: 100%;
   object-fit: cover;
   transition-duration: .5s;
   filter: opacity(50%);
+  border-radius: 10px;
 }
 /* Glass-like effect */
 .card::before {

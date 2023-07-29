@@ -7,12 +7,12 @@ function Characters() {
     <div className="player-cards">
       <Link to={"/gracze"}>
         <div className="card big">
-          <h1>Players</h1>
+          <h1>Gracze</h1>
         </div>
       </Link>
       <Link to={"/npc"}>
         <div className="card big">
-          <h1>NPCs</h1>
+          <h1>NPC</h1>
         </div>
       </Link>
     </div>

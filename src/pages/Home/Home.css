@@ -1,5 +1,7 @@
 body {
-  background-image: url("../../../public/assets/SmokeBackground.jpeg");
+  background-image: url("./smoke.jpeg");
+  background-color: rgb(82, 29, 29);
+  background-blend-mode: multiply;
   background-size: auto;
   display: flex;
   justify-content: center;

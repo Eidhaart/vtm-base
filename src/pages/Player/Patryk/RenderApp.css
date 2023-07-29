@@ -1,0 +1,51 @@
+/* RenderApp.css */
+
+.render-app {
+  background-color: #22222200;
+
+  color: white;
+  padding: 10px;
+}
+
+.render-app .grid-view {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.switch-button {
+  padding-bottom: 20px;
+}
+
+.render-app .column-view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.render-window {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+
+.render-window select {
+  background-color: #555;
+  color: white;
+  border-color: #777;
+  margin-bottom: 10px;
+  position: absolute;
+  z-index: 2;
+  scrollbar-width: none;
+}
+
+.render-window::-webkit-scrollbar {
+    display: none;
+}
+

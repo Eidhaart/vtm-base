@@ -1,0 +1,41 @@
+.login-body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  width: 400px;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #1d1d1d;
+  border-radius: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: red;
+}

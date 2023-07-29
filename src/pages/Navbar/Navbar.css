@@ -19,12 +19,18 @@
 .content {
   justify-content: center;
   align-items: center;
+
+  display: flex;
+  flex-direction: row !important;
 }
 
 .content h2 {
   display: inline-block;
   position: absolute;
   right: 5%;
+}
+.content:hover h2 {
+  color: red;
 }
 
 .logo {

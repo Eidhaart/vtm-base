@@ -13,23 +13,34 @@ import NavBar from "./pages/Navbar/NavBar";
 import Admin from "./pages/Admin/Admin";
 import Players from "./pages/Characters/Players/Players";
 import NPC from "./pages/Characters/NPC/NPC";
+import Maps from "./pages/Maps/Maps";
+import Navigation from "./pages/Navbar/Navigation";
+import Dangers from "./pages/Dangers/Dangers";
+import ClansBetter from "./pages/Clans/ClansBetter";
+import Player from "./pages/Player/Player";
+import Login from "./pages/Player/Login";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <NavBar />
+        <Navigation />
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/klany" element={<Clans />} />
+          <Route path="/klany" element={<ClansBetter />} />
           <Route path="/camarilla" element={<Camarilla />} />
           <Route path="/postacie" element={<Characters />} />
           <Route path="/zasady" element={<Rules />} />
           <Route path="/podrecznik" element={<Book />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/gracze" element={<Players />} />
+          <Route path="/mapy" element={<Maps />} />
+          <Route path="/zagrozenia" element={<Dangers />} />
           <Route path="/npc" element={<NPC />} />
+          <Route path="/gracz" element={<Player />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

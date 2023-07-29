@@ -10,7 +10,8 @@ button {
   display: block;
   margin: 5px auto 0;
   font-size: 18px;
-  z-index: 5;
+  z-index: 2;
+  font-family: "baskerville";
 }
 
 .modal,
@@ -22,6 +23,7 @@ button {
   right: 0;
   bottom: 0;
   position: fixed;
+  z-index: 3;
 }
 
 .overlay {
@@ -33,17 +35,27 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
-  background: #29272b;
+  background: #131212;
   padding: 14px 20px;
   border-radius: 3px;
-  max-width: 1500px;
-  min-width: 600px;
+  max-width: 1800px;
+  min-width: 700px;
   overflow: scroll;
   max-height: 85%;
   min-height: 400px;
+  border-radius: 10px;
+  color: white;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-gutter: none;
+  z-index: 5;
+  font-family: "baskerville";
+}
 
-  /* -ms-overflow-style: none; 
-  scrollbar-width: none;  */
+@media screen and (max-width: 800px) {
+  .modal-content {
+    min-width: 60%;
+  }
 }
 /* .modal-content::-webkit-scrollbar {
   display: none;

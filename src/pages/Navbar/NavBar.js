@@ -8,6 +8,7 @@ function NavBar() {
     <div className="container">
       <img className="logo" src={stockholm} />
       <div className="content">
+        
         <Link to={"/home"}>
           <h2>Stockholm By Night</h2>
         </Link>

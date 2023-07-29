@@ -31,7 +31,7 @@ function Clans() {
             </div>
             <div className={selected === i ? "desc show" : "desc"}>
               {item.desc}
-              <Modal desc={item.longdesc} onClick={""} />
+              <Modal desc={item.longdesc} modal={"true"} onClick={""} />
             </div>
           </div>
         )}

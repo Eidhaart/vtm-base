@@ -1,0 +1,34 @@
+/* SimpleAccordion.css */
+
+details {
+  margin: 1em 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.795);
+  font-family: "Diablo";
+  transition: all .5s;
+}
+
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+  transition: all .5s;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] {
+  padding: .5em;
+  transition: all .5s;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+  transition: all .5s;
+}
