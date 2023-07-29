@@ -43,7 +43,7 @@ const App = () => {
           <Route path="/npc" element={<NPC />} />
           <Route path="/gracz" element={<Player />} />
           <Route path="/login" element={<Login />} />
-          <Route path="*" element={<Navigate to="/home" replace />} />
+          <Route path="vtm-base/" element={<Navigate to="/home" replace />} />
         </Routes>
       </BrowserRouter>
     </div>
