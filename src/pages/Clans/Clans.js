@@ -606,92 +606,79 @@ const data = [
     img:
       "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
     title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1DEaQJVl0eJgRzND3PJhV5aNYyIp2dUIp",
+    title: "Gangrel",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1pmMDm_ZOgsJZX6CUza_hQdnKJ18AeQ-q",
+    title: "Hecata",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1AcQmZWmqeiCxENoUg-ctbO62hqfY5Zc6",
+    title: "Lasombra",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1MgGmKvjiDoyag2erl73L9iPDoxm-QtLc",
+    title: "Banu Haqim",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1LCQSbBnr-2UxPJbOBRvul-hdnge7CkYx",
+    title: "Malkavian",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1ZEWbYgJTfSgsLOGpFEcIaBKI9DLN5W0S",
+    title: "Ministry",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1DQ22jzHjxLfDlCpXy0p3GHFkxfLIam72",
+    title: "Nosferatu",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1hGyn7ZWeae2UAXMMljTgA917ZB9JJ0Qh",
+    title: "Ravnos",
+    desc: ""
+  },
+  {
+    img:
+      "https://drive.google.com/uc?export=view&id=1HunXZEksFXm91m-hs0S8Ez9sK_7XFIfV",
+    title: "Salubri",
+    desc: ""
   },
   {
     img:
       "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
+    title: "Thinblood",
+    desc: ""
   },
   {
     img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
+      "https://drive.google.com/uc?export=view&id=1gPJ0fdDOa7LT4LY-PT5h0ic05G1-w80v",
+    title: "Toreador",
+    desc: ""
   },
   {
     img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
-  },
-  {
-    img:
-      "https://drive.google.com/uc?export=view&id=10WERG5HSmbNJ8mEUizKeGKP6NPiLS83L",
-    title: "Brujah",
-    desc:
-      "Its a clan lorem ipsum sit dolor amet blah blach lbhak sdjlnsdfsdfkjnlkwjernwlekrj nwlekrjng welkrjgn welkrj gnwlekrjn gwlkerjn gwlkejrn glwkejrn gsdfsdfsdfsfsdfwrgwergthetrhsdkjndfkjgnd fkjdn fgd fg"
+      "https://drive.google.com/uc?export=view&id=1T93FenGLkqyIGbccGJbUZVD0Hd8z1I6V",
+    title: "Tzemisce",
+    desc: ""
   }
 ];
 
