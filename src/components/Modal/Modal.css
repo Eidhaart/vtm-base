@@ -50,6 +50,11 @@ button {
   scrollbar-gutter: none;
   z-index: 5;
   font-family: "baskerville";
+  scrollbar-width: none;
+}
+
+.modal-content::-webkit-scrollbar {
+  display: none;
 }
 
 @media screen and (max-width: 800px) {

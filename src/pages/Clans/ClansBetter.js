@@ -451,16 +451,27 @@ const data = [
         Dokumentację i Nadzór, aby ukształtować swoich członków w pożądany
         kształt.
         <h4>Spokrewnienie</h4>
-        Tremere są bardzo wybredni wobec tych, których przemieniają i zazwyczaj
-        czynią to z myślą o potrzebach klanu, co potwierdza fakt, że lokalny
-        Regent musi wyrazić zgodę na wampiryzację danej osoby. Zwykle
-        poszukiwane są osoby o silnej woli lub agresywnych osobowościach, pod
-        warunkiem, że mają jasny umysł i potrafią stać się częścią większego
-        całości, jakim jest klan. Kandydaci byli uczonymi za życia, a wielu z
-        nich zajmowało się okultyzmem w różnym stopniu, choć nie jest to warunek
-        konieczny. Oczywiście zdarzają się "niezgodne" przemiany z różnych
-        powodów - miłości, zysku politycznego czy wypadku. Regenci często
-        karykują takie błędy natychmiast, zabijając osoby wampir
+        Tremere są bardzo wybredni w kwestii, kogo przemieniają, i zazwyczaj
+        robią to z myślą o potrzebach klanu, co jest warunkiem wzmocnionym
+        faktem, że miejscowy Regent musi dać zgodę na stworzenie nowego potomka.
+        Szuka się zazwyczaj osób o silnej woli lub agresywnych osobowościach,
+        pod warunkiem, że mają jasny umysł i potrafią nauczyć się być częścią
+        większej całości, jaką jest klan. Kandydaci byli erudytami za życia, a
+        wielu z nich bawiło się w okultyzm do pewnego stopnia, choć nie jest to
+        wymóg. Oczywiście, istnieją "buntownicze" obejścia zwykłych powodów -
+        miłość, zysk polityczny, czy wypadek. Regenci często nakazują
+        natychmiastowe zabicie takich błędów, z odpowiednią karą dla twórcy, ale
+        zawsze są wyjątki. Wkrótce po "obejrzeniu" (Embrace), neonaty Tremere są
+        zobligowani do zobowiązania się do Kodeksu Tremere - który wyjaśnia,
+        czego oczekuje się od Tremere i jakie działania zasługują na
+        nieprzychylność. Neonat musi wypić krew Wewnętrznej Rady Siedmiu poprzez
+        rytuał zwany Transubstancjacja Siedmiu, zbliżając się do Więzi Krwi z
+        liderami klanu i zapewniając pewien stopień lojalności wobec swoich
+        rówieśników. Następnie rozpoczyna się ich szkolenie, nawet gdy nadal
+        zmagają się ze swoją przemianą w wampira, zapamiętują Tradycje, uczą się
+        jak się karmić itd. Te czynniki prowadzą do dużej liczby niepowodzeń
+        wśród nowo przemienionych Tremere, którzy mogą oszaleć lub popełnić
+        samobójstwo.
       </div>
     )
   },

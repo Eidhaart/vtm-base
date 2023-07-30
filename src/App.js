@@ -2,7 +2,7 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import Camarilla from "./pages/Camarilla/Camarilla";
-import Clans from "./pages/Clans/Clans";
+
 import Characters from "./pages/Characters/Characters";
 import Rules from "./pages/Rules";
 import NoPage from "./pages/NoPage";
