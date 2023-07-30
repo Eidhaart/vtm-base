@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a11b60d.css",
-    "main.js": "/static/js/main.4a212ce9.js",
-    "static/js/787.4c822ba6.chunk.js": "/static/js/787.4c822ba6.chunk.js",
-    "static/media/handbook.pdf": "/static/media/handbook.948d7ceadde773f93cdc.pdf",
-    "static/media/Dzielnice.png": "/static/media/Dzielnice.167f92036980484b9706.png",
-    "static/media/op3.jpg": "/static/media/op3.353ce3c06432349beab6.jpg",
-    "static/media/Sztokholm.jpg": "/static/media/Sztokholm.5b0d86abf3511704b7f7.jpg",
-    "static/media/op1.png": "/static/media/op1.aa885fb87e4ebca3793c.png",
-    "static/media/smoke.jpeg": "/static/media/smoke.5ad954eb73acc3bffb0f.jpeg",
-    "static/media/op2.png": "/static/media/op2.1970b63309ba69425797.png",
-    "static/media/stockholm.png": "/static/media/stockholm.8512e15c200539419aa4.png",
-    "index.html": "/index.html",
-    "main.5a11b60d.css.map": "/static/css/main.5a11b60d.css.map",
-    "main.4a212ce9.js.map": "/static/js/main.4a212ce9.js.map",
-    "787.4c822ba6.chunk.js.map": "/static/js/787.4c822ba6.chunk.js.map"
+    "main.css": "/vtm-base/static/css/main.121d7a1c.css",
+    "main.js": "/vtm-base/static/js/main.d10abc45.js",
+    "static/js/787.4c822ba6.chunk.js": "/vtm-base/static/js/787.4c822ba6.chunk.js",
+    "static/media/handbook.pdf": "/vtm-base/static/media/handbook.948d7ceadde773f93cdc.pdf",
+    "static/media/Dzielnice.png": "/vtm-base/static/media/Dzielnice.167f92036980484b9706.png",
+    "static/media/op3.jpg": "/vtm-base/static/media/op3.353ce3c06432349beab6.jpg",
+    "static/media/Sztokholm.jpg": "/vtm-base/static/media/Sztokholm.5b0d86abf3511704b7f7.jpg",
+    "static/media/op1.png": "/vtm-base/static/media/op1.aa885fb87e4ebca3793c.png",
+    "static/media/smoke.jpeg": "/vtm-base/static/media/smoke.5ad954eb73acc3bffb0f.jpeg",
+    "static/media/op2.png": "/vtm-base/static/media/op2.1970b63309ba69425797.png",
+    "static/media/stockholm.png": "/vtm-base/static/media/stockholm.8512e15c200539419aa4.png",
+    "index.html": "/vtm-base/index.html",
+    "main.121d7a1c.css.map": "/vtm-base/static/css/main.121d7a1c.css.map",
+    "main.d10abc45.js.map": "/vtm-base/static/js/main.d10abc45.js.map",
+    "787.4c822ba6.chunk.js.map": "/vtm-base/static/js/787.4c822ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a11b60d.css",
-    "static/js/main.4a212ce9.js"
+    "static/css/main.121d7a1c.css",
+    "static/js/main.d10abc45.js"
   ]
 }
