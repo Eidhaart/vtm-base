@@ -1,17 +1,23 @@
 import React from "react";
 import "./Camarilla.css";
+
+import CardList from "../../components/Characters/CardList";
+import VampireHierarchy from "../../components/Characters/VampireHierarchy";
 export default function Camarilla() {
   return (
     <div className="camarilla">
       <div className="camarilla-content" />
+      {/* <VampireHierarchy /> */}
+      {/* <CardList /> */}
+
       <h1>Camarilla</h1>
-      <p className="camarilla-desc">
+      {/* <p className="camarilla-desc">
         Struktura Camarilli w Sztokholmie jest dobrze zorganizowana i oparta na
         hierarchii, której celem jest utrzymanie porządku, zachowanie Maskarady
         oraz regulowanie interakcji między Kindredami w mieście. Oto ogólny opis
         struktury Camarilli w Sztokholmie:
-      </p>
-      <ol>
+      </p> */}
+      {/* <ol>
         <li>
           <div className="list-item">
             <h2>Książe</h2>
@@ -87,7 +93,7 @@ export default function Camarilla() {
             </p>
           </div>
         </li>
-      </ol>
+      </ol> */}
     </div>
   );
 }

@@ -1,0 +1,27 @@
+/* .char-card {
+  width: 200px;
+  position: relative;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.452);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.char-card-image {
+  position: relative;
+}
+
+.char-main-image {
+  width: 100%;
+  height: auto;
+}
+
+.char-corner-image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30% !important;
+  height: auto;
+  filter: invert(1);
+} */

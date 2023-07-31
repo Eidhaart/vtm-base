@@ -1,0 +1,45 @@
+h2 {
+  text-align: center;
+}
+
+.char-card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1500px; /* Adjust according to your card size to fit 5 in a row */
+  gap: 20px;
+}
+
+.char-card {
+  flex: 1 0 280px; /* Adjust according to your card size */
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  max-width: 200px;
+  margin: 10px;
+}
+
+.char-card-image {
+  position: relative;
+}
+
+.char-main-image {
+  width: 100%;
+  height: auto;
+}
+
+.char-corner-image {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: auto;
+}
+
+.char-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

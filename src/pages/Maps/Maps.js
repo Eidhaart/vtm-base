@@ -310,11 +310,33 @@ function Maps() {
                 <ul>
                   <li>
                     <h3>Siedziba Jednostki Inkwizycji</h3>
-                    <span>span</span>
+                    <span>
+                      Pod pałacem królewskim znajduję się należąca do drugiej
+                      inkwizycji sieć korytarzy. Jest to Szotkholmska siedziba
+                      DI, która skłąda się z podziemnego kompleksu złożonego z
+                      komnat sypialnych, laboratiorów w których prowadzone są
+                      badania, oraz cele wiezienne dla heretyków.
+                    </span>
                   </li>
                   <li>
                     <h3>Kosciol Sw. Gertrudy</h3>
-                    <span>span</span>
+                    <span>
+                      Kościół św. Gertrudy, znany również jako "Tysiącletni
+                      Kościół", jest jednym z najstarszych kościołów w
+                      Sztokholmie i jest głęboko związany z historią miasta.
+                      Wampiry w Sztokholmie zdają sobie sprawę z tego, że
+                      kościół jest teraz pod kontrolą Stowarzyszenia św.
+                      Leopolda, organizacji znanej z polowania na ich ród i
+                      innych nadnaturalnych bytów.
+                      <br />
+                      <br />
+                      Co więcej, wiele wampirów wierzy, że kościół jest
+                      chroniony przez pewne sakramenty i rytuały, które mogą
+                      powodować fizyczne cierpienie czy nawet zniszczenie, jeśli
+                      wampir spróbowałby naruszyć tę świętą przestrzeń. Dlatego
+                      większość wampirów unika kościoła i okolic, traktując to
+                      miejsce jako strefę wysoce niebezpieczną.
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -326,7 +348,76 @@ function Maps() {
         <img className="map" src={require("./op2.png")} />
       </div>
       <div className="accord">
-        <SimpleAccordion />
+        <SimpleAccordion
+          title={"Norrmalm"}
+          desc={
+            <div className="accord-container">
+              <div className="accord-column">
+                <ul>
+                  <li>
+                    <h3>Królewska Opera</h3>
+                    <span>
+                      Elysium: Królewska Opera w Sztokholmie jest jednym z
+                      najbardziej prestiżowych Elysium dla wampirów. Ten
+                      elegancki budynek z czasów neoklasycyzmu jest miejscem,
+                      gdzie wampiry mogą się spotkać, negocjować i przede
+                      wszystkim, zachować swoje polityczne gry. Podziwianie
+                      sztuki i prezentowanie się w swoim najbardziej dostojnym
+                      wydaniu jest tu na porządku dziennym. Dla większości
+                      wampirów, bycie częścią tego Elysium jest znakiem statusu
+                      i wpływów.
+                    </span>
+                  </li>
+                  <li>
+                    <h3>Klub Berns</h3>
+                    <span>
+                      DKlub Berns to luksusowy klub nocny i miejsce spotkań dla
+                      "wyższych sfer" społeczności wampirów. To miejsce jest
+                      dobrze znanym, choć nieoficjalnym, spotkaniem dla tych,
+                      którzy lubią dobrą muzykę, przepych i towarzystwo innych
+                      wampirów. Klub Berns jest zawsze pełen tajemniczych
+                      narożników i skrytych korytarzy, co czyni go idealnym
+                      miejscem dla tych, którzy preferują bardziej dyskretne
+                      spotkania.
+                    </span>
+                  </li>
+                  <li>
+                    <h3>Kościół Świętej Eugenii</h3>
+                    <span>
+                      Tak jak kościół św. Gertrudy, kościół św. Eugenii jest
+                      również pod kontrolą Stowarzyszenia św. Leopolda. Ta
+                      świątynia katolicka jest miejscem nie tylko dla świętych
+                      obrzędów, ale również dla tajnych spotkań i planowania
+                      strategii przeciwko wampirom i innym nadprzyrodzonym
+                      bytom.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="accord-column">
+                <ul>
+                  <li>
+                    <h3>
+                      Safehouse na skrzyżowaniu Sergelgången i
+                      Malmskillnadsgatan
+                    </h3>
+                    <span>
+                      Na skrzyżowaniu tych dwóch ulic, ukryty w gęstwinie
+                      miejskich budynków, znajduje się tajny safehouse dla
+                      wampirów. Ten niewielki, ale wygodny dom jest dobrze
+                      zabezpieczony i wyposażony w ciemne, zamknięte
+                      pomieszczenia, idealne dla wampirów, którzy potrzebują
+                      odpocząć w ciągu dnia. Miejsce to jest dobrze chronione i
+                      tylko nieliczni znają jego lokalizację, co czyni go
+                      idealnym schronieniem dla tych, którzy chcą uniknąć
+                      spojrzenia zarówno ludzi, jak i innych wampirów.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          }
+        />
       </div>
       <div>
         <img className="map" src={require("./op1.png")} />

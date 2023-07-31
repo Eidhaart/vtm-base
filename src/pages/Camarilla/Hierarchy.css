@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+.hierarchy {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Libre Baskerville', serif;
+  text-transform: uppercase;
+}
+
+.hierarchy-tier {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.hierarchy-square {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.hierarchy-square-upperTier {
+  border: 2px solid red;
+}
+
+.hierarchy-square-middleTier {
+  border: 2px solid rgb(211, 130, 39);
+}
+
+.hierarchy-square-lowerTier {
+  border: 2px solid rgb(252, 215, 255);
+}
+
+.hierarchy-square-name {
+  font-weight: bold;
+}
+
+/*  */
