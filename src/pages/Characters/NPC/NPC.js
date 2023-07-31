@@ -255,7 +255,7 @@ const data = [
           charakteryzuje się pewnością siebie, godnością i chłodną elegancją.
           Jest wyrafinowanym intelektualistą, posiadającym strategiczne myślenie
           i zdolność do podejmowania trudnych decyzji. Jego postawa jest
-          zdecydowana i pełna godności, co sprawia, że ​​ludzie naturalnie
+          zdecydowana i pełna godności, co sprawia, że ludzie naturalnie
           szanują go i podziwiają. Erik jest zazwyczaj spokojny, z dystansem i
           kontrolą nad swoimi emocjami, zachowując profesjonalizm nawet w
           najtrudniejszych sytuacjach.
