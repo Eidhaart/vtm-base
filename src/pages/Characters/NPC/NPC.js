@@ -248,7 +248,7 @@ const data = [
       <div>
         <p>
           Pod względem statusu społecznego, Erik Vintergaard cieszy się wysokim
-          prestiżem jako Regent klanu Ventrue w Sztokholmie. Jego pozycja daje
+          prestiżem jako Primogen klanu Ventrue w Sztokholmie. Jego pozycja daje
           mu autorytet i wpływ zarówno w świecie Kindredów, jak i w szerszym
           społeczeństwie. Jako CEO potężnej firmy i lider finansowy, ma również
           znaczącą pozycję w biznesowym świecie mortalnym. Osobowość Erika
