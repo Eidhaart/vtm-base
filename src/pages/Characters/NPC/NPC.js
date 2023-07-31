@@ -53,7 +53,7 @@ function NPC() {
               cornerImgSrc={item.cornerImg}
               level={item.level}
               imgSrc={item.imgSrc}
-              title={item.title + ""+" "+"("+item.level+")"}
+              title={item.title + "" + " " + "(" + item.level + ")"}
               description={item.description}
               side={currentSide}
             />
@@ -223,14 +223,14 @@ const data = [
     description: (
       <div>
         <p>
-          Urodzona w hiszpanii, Isabella była cenioną tancerką i
-          kurtyzaną w swoim śmiertelnym życiu. Teraz jako Toreador, jej uroda
-          jest ponadczasowa, a ruchy zawsze pełne wdzięku i celowe. Zachowała
-          swoją miłość do sztuki, wpływając na scenę kulturalną Sztokholmu jako
-          influencerka i twórca trendów. Isabella pełni funkcję primogena Toreador,
-          reprezentując interesy swojego klanu w mieście. Pod elegancką i
-          ujmującą powierzchownością posiada sprytny umysł polityczny, co czyni
-          ją szanowaną i wpływową postacią wśród Kindred.
+          Urodzona w hiszpanii, Isabella była cenioną tancerką i kurtyzaną w
+          swoim śmiertelnym życiu. Teraz jako Toreador, jej uroda jest
+          ponadczasowa, a ruchy zawsze pełne wdzięku i celowe. Zachowała swoją
+          miłość do sztuki, wpływając na scenę kulturalną Sztokholmu jako
+          influencerka i twórca trendów. Isabella pełni funkcję primogena
+          Toreador, reprezentując interesy swojego klanu w mieście. Pod
+          elegancką i ujmującą powierzchownością posiada sprytny umysł
+          polityczny, co czyni ją szanowaną i wpływową postacią wśród Kindred.
         </p>
       </div>
     )
@@ -248,17 +248,17 @@ const data = [
       <div>
         <p>
           Pod względem statusu społecznego, Erik Vintergaard cieszy się wysokim
-          prestiżem jako Książę Sztokholmu oraz przywódca frakcji Ventrue. Jego
-          pozycja daje mu autorytet i wpływ zarówno w świecie Kindredów, jak i w
-          szerszym społeczeństwie. Jako CEO potężnej firmy i lider finansowy, ma
-          również znaczącą pozycję w biznesowym świecie mortalnym. Osobowość
-          Erika charakteryzuje się pewnością siebie, godnością i chłodną
-          elegancją. Jest wyrafinowanym intelektualistą, posiadającym
-          strategiczne myślenie i zdolność do podejmowania trudnych decyzji.
-          Jego postawa jest zdecydowana i pełna godności, co sprawia, że
-          ​​ludzie naturalnie szanują go i podziwiają. Erik jest zazwyczaj
-          spokojny, z dystansem i kontrolą nad swoimi emocjami, zachowując
-          profesjonalizm nawet w najtrudniejszych sytuacjach.
+          prestiżem jako Regent klanu Ventrue w Sztokholmie. Jego pozycja daje
+          mu autorytet i wpływ zarówno w świecie Kindredów, jak i w szerszym
+          społeczeństwie. Jako CEO potężnej firmy i lider finansowy, ma również
+          znaczącą pozycję w biznesowym świecie mortalnym. Osobowość Erika
+          charakteryzuje się pewnością siebie, godnością i chłodną elegancją.
+          Jest wyrafinowanym intelektualistą, posiadającym strategiczne myślenie
+          i zdolność do podejmowania trudnych decyzji. Jego postawa jest
+          zdecydowana i pełna godności, co sprawia, że ​​ludzie naturalnie
+          szanują go i podziwiają. Erik jest zazwyczaj spokojny, z dystansem i
+          kontrolą nad swoimi emocjami, zachowując profesjonalizm nawet w
+          najtrudniejszych sytuacjach.
         </p>
       </div>
     )
