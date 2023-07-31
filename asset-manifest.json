@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c0becab.css",
-    "main.js": "/static/js/main.5ae20b0e.js",
+    "main.css": "/static/css/main.92cd290e.css",
+    "main.js": "/static/js/main.d7dd5232.js",
     "static/js/787.4c822ba6.chunk.js": "/static/js/787.4c822ba6.chunk.js",
     "static/media/handbook.pdf": "/static/media/handbook.948d7ceadde773f93cdc.pdf",
     "static/media/Dzielnice.png": "/static/media/Dzielnice.167f92036980484b9706.png",
@@ -12,12 +12,12 @@
     "static/media/op2.png": "/static/media/op2.1970b63309ba69425797.png",
     "static/media/stockholm.png": "/static/media/stockholm.8512e15c200539419aa4.png",
     "index.html": "/index.html",
-    "main.0c0becab.css.map": "/static/css/main.0c0becab.css.map",
-    "main.5ae20b0e.js.map": "/static/js/main.5ae20b0e.js.map",
+    "main.92cd290e.css.map": "/static/css/main.92cd290e.css.map",
+    "main.d7dd5232.js.map": "/static/js/main.d7dd5232.js.map",
     "787.4c822ba6.chunk.js.map": "/static/js/787.4c822ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c0becab.css",
-    "static/js/main.5ae20b0e.js"
+    "static/css/main.92cd290e.css",
+    "static/js/main.d7dd5232.js"
   ]
 }
