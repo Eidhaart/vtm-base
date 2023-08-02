@@ -45,13 +45,13 @@ const cardData = [
   //   src:
   //     "https://drive.google.com/uc?export=view&id=1NvFO9uVHNqCvQdGb0pddDBDGhnN0KykR"
   // },
-  // {
-  //   title: "System",
-  //   desc: "",
-  //   link: "/zasady",
-  //   src:
-  //     "https://drive.google.com/uc?export=view&id=1ceS7nJDS35uYq7DnIpJMzsluLCrEkJAx"
-  // },
+  {
+    title: "System",
+    desc: "",
+    link: "/system",
+    src:
+      "https://drive.google.com/uc?export=view&id=1ceS7nJDS35uYq7DnIpJMzsluLCrEkJAx"
+  },
   {
     title: "Podręcznik",
     desc: "",

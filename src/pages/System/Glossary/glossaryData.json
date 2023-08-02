@@ -1,0 +1,222 @@
+[
+  {
+    "term": "Anarchiści",
+    "definition": "Frakcja, która odłączyła się od Camarilli, by szukać wolności."
+  },
+  {
+    "term": "Atrybuty",
+    "definition": "Dziewięć Cech, które definiują wrodzone talenty postaci."
+  },
+  {
+    "term": "Baron",
+    "definition": "Anarchistyczny władca domeny."
+  },
+  {
+    "term": "Bestia",
+    "definition": "Metafizyczne wcielenie wampirzej klątwy drzemiące w ich Krwi."
+  },
+  {
+    "term": "Bestialska porażka",
+    "definition": "Jeśli test zakończy się niepowodzeniem i został wyrzucony chociaż jeden; oznacza to krytyczną porażkę i niesie ze sobą tragiczne konsekwencje."
+  },
+  {
+    "term": "Bohaterowie Niezależni",
+    "definition": "Postacie kontrolowane przez Narratora. Wszystkie pojawiające się w scenariuszu osoby, w których role wciela się Narrator."
+  },
+  {
+    "term": "Brujah",
+    "definition": "Jeden z siedmiu głównych klanów i jeden z dwóch kluczowych klanów Anarchistów. Znany także jako Klan Uczonych lub Podżegacze."
+  },
+  {
+    "term": "Camarilla",
+    "definition": "Kilkusetletnia organizacja Spokrewnionych. Stworzona, aby kultywować Tradycje i prawo Starszych do sprawowania władzy."
+  },
+  {
+    "term": "Cechy",
+    "definition": "Wszystkie wartości oznaczone kropkami na karcie postaci."
+  },
+  {
+    "term": "Choleryczny",
+    "definition": "Rezonans ofiar, które są zdenerwowane, agresywne lub pełne pasji."
+  },
+  {
+    "term": "Człowieczeństwo",
+    "definition": "Wartość obrazująca, w jakim stopniu Spokrewniony jest kontrolowany przez Bestię."
+  },
+  {
+    "term": "Domeny",
+    "definition": "Tereny łowieckie należące do konkretnych Spokrewnionych, uważane przez większość nich za świętość, szczególnie pośród członków Camarilli."
+  },
+  {
+    "term": "Druga Inkwizycja",
+    "definition": "Zbiorcza nazwa dla tajnych grup wywiadowczych z całego świata; należy do niej również Stowarzyszenie św. Leopolda."
+  },
+  {
+    "term": "Dyscypliny",
+    "definition": "Nadprzyrodzone moce, którymi wampiryczna klątwa obdarza Spokrewnionych."
+  },
+  {
+    "term": "Dzielenie na pół",
+    "definition": "Sytuacja, w której Narrator podczas konfliktu dzieli pulę kości BN na pół i wynik uznaje za ST testu dla gracza; służy utrzymaniu dynamiki rozgrywki."
+  },
+  {
+    "term": "Flegmatyczny",
+    "definition": "Rezonans ofiar, które są leniwe, apatyczne lub sentymentalne."
+  },
+  {
+    "term": "Gangrel",
+    "definition": "Jeden z siedmiu głównych klanów i jeden z dwóch kluczowych klanów Anarchistów. Znany także jako Klan Bestii lub Zwierzęta."
+  },
+  {
+    "term": "Głód",
+    "definition": "Niemożliwe do zaspokojenia pragnienie krwi, które nieustannie cierpią wszyscy Spokrewnieni."
+  },
+  {
+    "term": "Kain",
+    "definition": "Według legend był pierwszym Spokrewnionym, przeklętym przez Boga za zamordowanie swojego brata."
+  },
+  {
+    "term": "Klany",
+    "definition": "Trzynaście różnych rodów Spokrewnionych."
+  },
+  {
+    "term": "Konflikt",
+    "definition": "Sytuacja, w której dwie lub więcej postaci toczy między sobą walkę fizyczną lub werbalną."
+  },
+  {
+    "term": "Kości Głodu",
+    "definition": "Czerwone kości używane w Wampirze w celu zobrazowania, jak silna staje się Bestia w miarę wzrostu Głodu."
+  },
+  {
+    "term": "Krwawa wygrana",
+    "definition": "Kiedy zostanie wyrzucony krytyczny sukces, w którego skład wchodzi przynajmniej jeden na kości Głodu; oznacza to, że sukces przekracza oczekiwania, jednak dochodzi do użycia niepotrzebnej siły, co daje katastrofalne skutki."
+  },
+  {
+    "term": "Malkavian",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Księżyca lub Wyroczniami."
+  },
+  {
+    "term": "Maskarada",
+    "definition": "Tradycja nakazująca Spokrewnionym za wszelką cenę utrzymać swoją prawdziwą naturę w tajemnicy przed śmiertelnikami."
+  },
+  {
+    "term": "Melancholiczny",
+    "definition": "Rezonans ofiar, które są smutne, przestraszone lub przygnębione."
+  },
+  {
+    "term": "Nadwyżka",
+    "definition": "Różnica w zdanym teście pomiędzy liczbą wyrzuconych a ustalonym przez Narratora ST testu."
+  },
+  {
+    "term": "Napływ Krwi",
+    "definition": "Zdolność podniesienia wartości jednego z Atrybutów za pomocą Pobudzenia Krwi."
+  },
+  {
+    "term": "Narrator",
+    "definition": "Gracz, który bierze na siebie zadanie poprowadzenia historii."
+  },
+  {
+    "term": "Nosferatu",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Ukrytych lub Szczurami."
+  },
+  {
+    "term": "Pojedynek",
+    "definition": "Każdy test, w którym gracz wykonuje rzut przeciwko aktywnie stawiającemu opór przeciwnikowi."
+  },
+  {
+    "term": "Potomek",
+    "definition": "„Dziecię” wampira; krewny stwórcy."
+  },
+  {
+    "term": "Poważne Obrażenia",
+    "definition": "Obrażenia spowodowane przez światło słoneczne, ogień, nadprzyrodzone moce lub nadmierne użycie siły; zarówno fizyczne (obrażenia Zdrowia), jak i psychiczne (obrażenia Siły Woli)."
+  },
+  {
+    "term": "Prosty test",
+    "definition": "Każdy test, w którym nie występuje żaden aktywny przeciwnik."
+  },
+  {
+    "term": "Pula kości",
+    "definition": "Liczba kości potrzebnych graczowi do wykonania testu. Pulę kości ustala Narrator, dodając do siebie dwie Cechy, których będzie używał gracz. W większości przypadków są to Atrybut i Umiejętność lub Atrybut i Dyscyplina."
+  },
+  {
+    "term": "Rezonans",
+    "definition": "Specyficzne cechy i smak krwi ofiary."
+  },
+  {
+    "term": "Sangwiniczny",
+    "definition": "Rezonans ofiar, które są szczęśliwe, podniecone lub nadmiernie podekscytowane."
+  },
+  {
+    "term": "Siła Woli",
+    "definition": "Liczba psychicznych obrażeń, które może znieść postać, oraz zdolność do pokonania przeciwności losu pod presją."
+  },
+  {
+    "term": "Skaza",
+    "definition": "Krzyżyk w pustym polu wskaźnika Człowieczeństwa, reprezentujący niemoralny czyn, który odcisnął ślad na duszy postaci."
+  },
+  {
+    "term": "Sprawdzian",
+    "definition": "Element mechaniki, dzięki któremu można określić, czy Głód (Sprawdzian Pobudzenia) lub Człowieczeństwo (test Skruchy) zmieniają wartość w trakcie lub na końcu sesji."
+  },
+  {
+    "term": "Sprawdzian Pobudzenia",
+    "definition": "Sprawdzian, który wykonuje gracz, gdy postać używa darów Krwi."
+  },
+  {
+    "term": "Spokrewnienie",
+    "definition": "Akt przemiany śmiertelnika w wampira."
+  },
+  {
+    "term": "Spokrewniony",
+    "definition": "Inaczej wampir."
+  },
+  {
+    "term": "Starszy",
+    "definition": "Zaawansowany wiekiem Spokrewniony. Starsi często sprawują władzę ze względu na swój wiek i doświadczenie."
+  },
+  {
+    "term": "Stopień Trudności (ST)",
+    "definition": "Określa, jak trudny będzie test. Stopień ten zostaje określony przez Narratora na podstawie okoliczności towarzyszących scenie oraz wszelkich okoliczności, które mogą komplikować lub upraszczać sytuację."
+  },
+  {
+    "term": "Stowarzyszenie św. Leopolda",
+    "definition": "Tajna grupa łowców czarownic z Watykanu, mocno zaangażowana w działalność Drugiej inkwizycji."
+  },
+  {
+    "term": "Stwórca",
+    "definition": "Spokrewniony, który przeistoczył śmiertelnika. Krewny potomka."
+  },
+  {
+    "term": "Świat Mroku",
+    "definition": "Świat, w którym osadzona jest gra Wampir: Maskarada."
+  },
+  {
+    "term": "Testy",
+    "definition": "Mechanika stworzona do rozstrzygania wyników podejmowanych przez postacie działań, polegająca na obliczaniu puli kości i rzutach kośćmi."
+  },
+  {
+    "term": "Test Skruchy",
+    "definition": "Test, który przechodzą pod koniec sesji postacie ze Skazami."
+  },
+  {
+    "term": "Toreador",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Róży lub Diwami."
+  },
+  {
+    "term": "Tremere",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Rozbitym Klanem lub Czarnoksiężnikami."
+  },
+  {
+    "term": "Umiejętności",
+    "definition": "Cechy, które definiują wszystkie wyuczone zdolności postaci."
+  },
+  {
+    "term": "Ventrue",
+    "definition": "Jeden z siedmiu głównych klanów i de facto przywódcy Camarilli. Znani również jako Klan Królów lub Błękitnokrwiści."
+  },
+  {
+    "term": "Zdrowie",
+    "definition": "Wskaźnik liczby obrażeń fizycznych, jakie może znieść postać."
+  }
+]

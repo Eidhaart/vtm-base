@@ -21,6 +21,8 @@ import Dangers from "./pages/Dangers/Dangers";
 import ClansBetter from "./pages/Clans/ClansBetter";
 import Player from "./pages/Player/Player";
 import Login from "./pages/Player/Login";
+import System from "./pages/System/System";
+import Glossary from "./pages/System/Glossary/Glossary";
 
 const App = () => {
   return (
@@ -34,7 +36,9 @@ const App = () => {
           <Route path="/klany" element={<ClansBetter />} />
           <Route path="/camarilla" element={<Camarilla />} />
           <Route path="/postacie" element={<Characters />} />
-          <Route path="/zasady" element={<Rules />} />
+          <Route path="/system" element={<System />} />
+          <Route path="system/glossary" element={<Glossary />} />{" "}
+          {/* Changed this line */}
           <Route path="/podrecznik" element={<Book />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/gracze" element={<Players />} />
