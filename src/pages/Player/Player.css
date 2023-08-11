@@ -1,0 +1,8 @@
+.column-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+}
+.column {
+  margin: 0;
+  padding: 0;
+}

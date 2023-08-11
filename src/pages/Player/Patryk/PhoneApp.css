@@ -1,0 +1,204 @@
+.message-container {
+  background-color: #1d1d20;
+  color: #fff;
+  height: 80vh;
+  /* padding: 20px; */
+  font-family: Arial, sans-serif;
+  width: 100vw;
+  max-width: 800px;
+  margin-top: 100px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-gutter: none;
+  scrollbar-width: none;
+}
+
+.message-container::-webkit-scrollbar {
+  display: none;
+}
+
+.message-header {
+  display: flex;
+  background-color: #030303;
+
+  padding: 20px 20px;
+
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "baskerville";
+}
+
+.sender-menu-header {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: "Baskerville";
+  color: orange;
+}
+
+.timestamp {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.445);
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.message-list {
+  list-style-type: none;
+
+  padding: 0;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.message-header img {
+  margin-left: 10px;
+}
+
+.message-item {
+  background-color: #571c12;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start; /* default alignment */
+  margin-left: 20px;
+  box-shadow: #000000c9 0px 0px 2px;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.493);
+  z-index: 100; /* Adjust z-index if needed */
+}
+
+.sender-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px; /* You can adjust this as needed */
+  background-color: #2a2a2c;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 101; /* Ensure the menu is above the overlay */
+  transition: all 0.3s;
+}
+
+/* .sender-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 12px;
+} */
+
+.sender-list li {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #2d2d30;
+  margin: 5px;
+}
+
+.sender-list li:hover {
+  background-color: rgb(40, 40, 41);
+}
+
+.hamburger-menu {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.message-container-relative {
+  position: relative;
+  width: 100%; /* or whatever you prefer */
+}
+
+.menu-overlay {
+  position: absolute; /* changed from fixed to absolute */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+.sender-menu {
+  position: absolute; /* changed from fixed to absolute */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px; /* You can adjust this as needed */
+  background-color: #050505;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: all 1s ease-in-out;
+}
+
+.sender-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #050505;
+}
+
+/* .sender-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #5a5a5c;
+} */
+
+.hamburger-menu {
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message-item.sent-by-user {
+  justify-content: flex-end;
+}
+
+.message-item.sent-by-user .message-container {
+  background-color: darkred;
+}
+
+.message-item.sent-by-user .profile-pic {
+  display: none; /* hide image for user's own messages */
+}
+
+.message-item.me {
+  display: flex;
+
+  margin-left: 90%;
+  background-color: #4e4e53;
+}
+
+.send-form {
+  display: flex !important;
+  align-items: center !important; /* This ensures vertical alignment */
+}
+
+.send-form input,
+.send-form button {
+  margin: 0 !important; /* Remove default margins */
+  height: 40px !important; /* Set a fixed height for both if you want */
+}

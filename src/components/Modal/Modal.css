@@ -2,9 +2,6 @@ body.active-modal {
   overflow-y: hidden;
 }
 
-button {
-}
-
 .btn-modal {
   padding: 10px 20px;
   display: block;
@@ -12,6 +9,26 @@ button {
   font-size: 18px;
   z-index: 2;
   font-family: "baskerville";
+  background-color: #131212;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: all .3s;
+}
+.btn-modal:hover {
+  padding: 10px 20px;
+  display: block;
+  margin: 5px auto 0;
+  font-size: 18px;
+  z-index: 2;
+  font-family: "baskerville";
+  background-color: #333131;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: all .3s;
 }
 
 .modal,

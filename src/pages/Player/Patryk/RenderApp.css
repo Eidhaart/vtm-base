@@ -5,6 +5,7 @@
 
   color: white;
   padding: 10px;
+  width: 50%;
 }
 
 .render-app .grid-view {
@@ -17,6 +18,8 @@
 .switch-button {
   padding-bottom: 20px;
 }
+
+
 
 .render-app .column-view {
   display: flex;
@@ -38,7 +41,7 @@
 .render-window select {
   background-color: #555;
   color: white;
-  border-color: #777;
+
   margin-bottom: 10px;
   position: absolute;
   z-index: 2;
@@ -46,6 +49,5 @@
 }
 
 .render-window::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-

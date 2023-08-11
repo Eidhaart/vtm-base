@@ -1,222 +1,781 @@
 [
   {
-    "term": "Anarchiści",
-    "definition": "Frakcja, która odłączyła się od Camarilli, by szukać wolności."
+    "book": "Podstawowy podręcznik",
+    "definition": "Akt konsumowania krwi innego spokrewnionego. Zob. diabolizm.",
+    "term": "Amarant (archaizm)"
   },
   {
-    "term": "Atrybuty",
-    "definition": "Dziewięć Cech, które definiują wrodzone talenty postaci."
+    "book": "Świeża Krew",
+    "definition": "Frakcja, która odłączyła się od Camarilli, by szukać wolności.",
+    "term": "Anarchiści"
   },
   {
-    "term": "Baron",
-    "definition": "Anarchistyczny władca domeny."
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampirza sekta sprzeciwiająca się tyranii starszych, funkcjonująca poza tajnym stowarzyszeniem Camarilli.",
+    "term": "Anarchiści, ruch anarchistów"
   },
   {
-    "term": "Bestia",
-    "definition": "Metafizyczne wcielenie wampirzej klątwy drzemiące w ich Krwi."
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir, który się sprawdził, ranga pomiędzy starszym i nowicjuszem. Liczba mnoga: ancillae.",
+    "term": "Ancilla"
   },
   {
-    "term": "Bestialska porażka",
-    "definition": "Jeśli test zakończy się niepowodzeniem i został wyrzucony chociaż jeden; oznacza to krytyczną porażkę i niesie ze sobą tragiczne konsekwencje."
+    "book": "Świeża Krew",
+    "definition": "Dziewięć Cech, które definiują wrodzone talenty postaci.",
+    "term": "Atrybuty"
   },
   {
-    "term": "Bohaterowie Niezależni",
-    "definition": "Postacie kontrolowane przez Narratora. Wszystkie pojawiające się w scenariuszu osoby, w których role wciela się Narrator."
+    "book": "Podstawowy podręcznik",
+    "definition": "Zob. niezwiązani.",
+    "term": "Autarkis (archaizm)"
   },
   {
-    "term": "Brujah",
-    "definition": "Jeden z siedmiu głównych klanów i jeden z dwóch kluczowych klanów Anarchistów. Znany także jako Klan Uczonych lub Podżegacze."
+    "book": "Podstawowy podręcznik",
+    "definition": "Zwyczaj „wycofywania” krwi z banków krwi, szpitali albo od zmarłych lub umierających osób. Wampir zajmujący się bankowością to „bankier”.",
+    "term": "Bankowość"
   },
   {
-    "term": "Camarilla",
-    "definition": "Kilkusetletnia organizacja Spokrewnionych. Stworzona, aby kultywować Tradycje i prawo Starszych do sprawowania władzy."
+    "book": "Świeża Krew",
+    "definition": "Anarchistyczny władca domeny.",
+    "term": "Baron"
   },
   {
-    "term": "Cechy",
-    "definition": "Wszystkie wartości oznaczone kropkami na karcie postaci."
+    "book": "Świeża Krew",
+    "definition": "Metafizyczne wcielenie wampirzej klątwy drzemiące w ich Krwi.",
+    "term": "Bestia"
   },
   {
-    "term": "Choleryczny",
-    "definition": "Rezonans ofiar, które są zdenerwowane, agresywne lub pełne pasji."
+    "book": "Podstawowy podręcznik",
+    "definition": "Niejasne popędy i żądze, które mogą zmienić wampira w bezmyślnego potwora.",
+    "term": "Bestia"
   },
   {
-    "term": "Człowieczeństwo",
-    "definition": "Wartość obrazująca, w jakim stopniu Spokrewniony jest kontrolowany przez Bestię."
+    "book": "Świeża Krew",
+    "definition": "Jeśli test zakończy się niepowodzeniem i został wyrzucony chociaż jeden; oznacza to krytyczną porażkę i niesie ze sobą tragiczne konsekwencje.",
+    "term": "Bestialska porażka"
   },
   {
-    "term": "Domeny",
-    "definition": "Tereny łowieckie należące do konkretnych Spokrewnionych, uważane przez większość nich za świętość, szczególnie pośród członków Camarilli."
+    "book": "Świeża Krew",
+    "definition": "Postacie kontrolowane przez Narratora. Wszystkie pojawiające się w scenariuszu osoby, w których role wciela się Narrator.",
+    "term": "Bohaterowie Niezależni"
   },
   {
-    "term": "Druga Inkwizycja",
-    "definition": "Zbiorcza nazwa dla tajnych grup wywiadowczych z całego świata; należy do niej również Stowarzyszenie św. Leopolda."
+    "book": "Świeża Krew",
+    "definition": "Jeden z siedmiu głównych klanów i jeden z dwóch kluczowych klanów Anarchistów. Znany także jako Klan Uczonych lub Podżegacze.",
+    "term": "Brujah"
   },
   {
-    "term": "Dyscypliny",
-    "definition": "Nadprzyrodzone moce, którymi wampiryczna klątwa obdarza Spokrewnionych."
+    "book": "Świeża Krew",
+    "definition": "Kilkusetletnia organizacja Spokrewnionych. Stworzona, aby kultywować Tradycje i prawo Starszych do sprawowania władzy.",
+    "term": "Camarilla"
   },
   {
-    "term": "Dzielenie na pół",
-    "definition": "Sytuacja, w której Narrator podczas konfliktu dzieli pulę kości BN na pół i wynik uznaje za ST testu dla gracza; służy utrzymaniu dynamiki rozgrywki."
+    "book": "Podstawowy podręcznik",
+    "definition": "Sekta wampirów zaangażowana głównie w podtrzymywanie Tradycji, zwłaszcza Maskarady.",
+    "term": "Camarilla"
   },
   {
-    "term": "Flegmatyczny",
-    "definition": "Rezonans ofiar, które są leniwe, apatyczne lub sentymentalne."
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir uwodzący śmiertelników, który żywi się ich krwią, ale nie zabija. Zob. syrena.",
+    "term": "Casanova (wulg.)"
   },
   {
-    "term": "Gangrel",
-    "definition": "Jeden z siedmiu głównych klanów i jeden z dwóch kluczowych klanów Anarchistów. Znany także jako Klan Bestii lub Zwierzęta."
+    "book": "Podstawowy podręcznik",
+    "definition": "Zob. Piaskun.",
+    "term": "Cauchemar (archaizm)"
   },
   {
-    "term": "Głód",
-    "definition": "Niemożliwe do zaspokojenia pragnienie krwi, które nieustannie cierpią wszyscy Spokrewnieni."
+    "book": "Świeża Krew",
+    "definition": "Wszystkie wartości oznaczone kropkami na karcie postaci.",
+    "term": "Cechy"
   },
   {
-    "term": "Kain",
-    "definition": "Według legend był pierwszym Spokrewnionym, przeklętym przez Boga za zamordowanie swojego brata."
+    "book": "Podstawowy podręcznik",
+    "definition": "Rozmiar i jakość domeny lub terenów łowieckich.",
+    "term": "Chasse (archaizm)"
   },
   {
-    "term": "Klany",
-    "definition": "Trzynaście różnych rodów Spokrewnionych."
+    "book": "Świeża Krew",
+    "definition": "Rezonans ofiar, które są zdenerwowane, agresywne lub pełne pasji.",
+    "term": "Choleryczny"
   },
   {
-    "term": "Konflikt",
-    "definition": "Sytuacja, w której dwie lub więcej postaci toczy między sobą walkę fizyczną lub werbalną."
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampiry z czternastego lub piętnastego pokolenia (albo młodsze), które nie doświadczają klątwy Kaina w taki sam sposób, jak inni Spokrewnieni.",
+    "term": "Cienkokrwiści"
   },
   {
-    "term": "Kości Głodu",
-    "definition": "Czerwone kości używane w Wampirze w celu zobrazowania, jak silna staje się Bestia w miarę wzrostu Głodu."
+    "book": "Świeża Krew",
+    "definition": "Wartość obrazująca, w jakim stopniu Spokrewniony jest kontrolowany przez Bestię.",
+    "term": "Człowieczeństwo"
   },
   {
-    "term": "Krwawa wygrana",
-    "definition": "Kiedy zostanie wyrzucony krytyczny sukces, w którego skład wchodzi przynajmniej jeden na kości Głodu; oznacza to, że sukces przekracza oczekiwania, jednak dochodzi do użycia niepotrzebnej siły, co daje katastrofalne skutki."
+    "book": "Podstawowy podręcznik",
+    "definition": "Ironiczne określenie żywiciela.",
+    "term": "Dawca"
   },
   {
-    "term": "Malkavian",
-    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Księżyca lub Wyroczniami."
+    "book": "Podstawowy podręcznik",
+    "definition": "Konsumpcja krwi innych Spokrewnionych, aż do momentu ostatecznej śmierci ofiary.",
+    "term": "Diabolizm"
   },
   {
-    "term": "Maskarada",
-    "definition": "Tradycja nakazująca Spokrewnionym za wszelką cenę utrzymać swoją prawdziwą naturę w tajemnicy przed śmiertelnikami."
+    "book": "Podstawowy podręcznik",
+    "definition": "Teren wpływu danego wampira.",
+    "term": "Domena"
   },
   {
-    "term": "Melancholiczny",
-    "definition": "Rezonans ofiar, które są smutne, przestraszone lub przygnębione."
+    "book": "Świeża Krew",
+    "definition": "Tereny łowieckie należące do konkretnych Spokrewnionych, uważane przez większość nich za świętość, szczególnie pośród członków Camarilli.",
+    "term": "Domeny"
   },
   {
-    "term": "Nadwyżka",
-    "definition": "Różnica w zdanym teście pomiędzy liczbą wyrzuconych a ustalonym przez Narratora ST testu."
+    "book": "Podstawowy podręcznik",
+    "definition": "Pan ghula, ktoś, kto wydaje rozkazy i daje swoją krew.",
+    "term": "Domitor"
   },
   {
-    "term": "Napływ Krwi",
-    "definition": "Zdolność podniesienia wartości jednego z Atrybutów za pomocą Pobudzenia Krwi."
+    "book": "Świeża Krew",
+    "definition": "Zbiorcza nazwa dla tajnych grup wywiadowczych z całego świata; należy do niej również Stowarzyszenie św. Leopolda.",
+    "term": "Druga Inkwizycja"
   },
   {
-    "term": "Narrator",
-    "definition": "Gracz, który bierze na siebie zadanie poprowadzenia historii."
+    "book": "Podstawowy podręcznik",
+    "definition": "Zbiorowa nazwa używana przez wampiry na określenie niedawnych skoordynowanych działań służb wywiadowczych, które miały na celu walkę ze Spokrewnionymi, jakby byli oni terrorystami.",
+    "term": "Druga inkwizycja"
   },
   {
-    "term": "Nosferatu",
-    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Ukrytych lub Szczurami."
+    "book": "Świeża Krew",
+    "definition": "Nadprzyrodzone moce, którymi wampiryczna klątwa obdarza Spokrewnionych.",
+    "term": "Dyscypliny"
   },
   {
-    "term": "Pojedynek",
-    "definition": "Każdy test, w którym gracz wykonuje rzut przeciwko aktywnie stawiającemu opór przeciwnikowi."
+    "book": "Świeża Krew",
+    "definition": "Sytuacja, w której Narrator podczas konfliktu dzieli pulę kości BN na pół i wynik uznaje za ST testu dla gracza; służy utrzymaniu dynamiki rozgrywki.",
+    "term": "Dzielenie na pół"
   },
   {
-    "term": "Potomek",
-    "definition": "„Dziecię” wampira; krewny stwórcy."
+    "book": "Podstawowy podręcznik",
+    "definition": "Spokrewniony polujący w takich miejscach, jak kluby nocne, bary i dzielnice czerwonych latarni.",
+    "term": "Dżentelmen (archaizm)"
   },
   {
-    "term": "Poważne Obrażenia",
-    "definition": "Obrażenia spowodowane przez światło słoneczne, ogień, nadprzyrodzone moce lub nadmierne użycie siły; zarówno fizyczne (obrażenia Zdrowia), jak i psychiczne (obrażenia Siły Woli)."
+    "book": "Podstawowy podręcznik",
+    "definition": "Miejsce, w którym wampiry mogą się bez obaw spotykać.",
+    "term": "Elizjum"
   },
   {
-    "term": "Prosty test",
-    "definition": "Każdy test, w którym nie występuje żaden aktywny przeciwnik."
+    "book": "Podstawowy podręcznik",
+    "definition": "Szydercze określenie wampira, który nie chce żywić się ludzką krwią, zamiast tego żerując na zwierzętach.",
+    "term": "Farmer (wulg.)"
   },
   {
-    "term": "Pula kości",
-    "definition": "Liczba kości potrzebnych graczowi do wykonania testu. Pulę kości ustala Narrator, dodając do siebie dwie Cechy, których będzie używał gracz. W większości przypadków są to Atrybut i Umiejętność lub Atrybut i Dyscyplina."
+    "book": "Podstawowy podręcznik",
+    "definition": "Ktoś, kto obraca się wśród wyższych sfer śmiertelników i żeruje wyłącznie na celebrytach oraz bogatych osobach.",
+    "term": "Festyniarz (wulg.)"
   },
   {
-    "term": "Rezonans",
-    "definition": "Specyficzne cechy i smak krwi ofiary."
+    "book": "Świeża Krew",
+    "definition": "Rezonans ofiar, które są leniwe, apatyczne lub sentymentalne.",
+    "term": "Flegmatyczny"
   },
   {
-    "term": "Sangwiniczny",
-    "definition": "Rezonans ofiar, które są szczęśliwe, podniecone lub nadmiernie podekscytowane."
+    "book": "Podstawowy podręcznik",
+    "definition": "Tradycyjna nazwa kwatery głównej Tremere w danym mieście.",
+    "term": "Fundacja"
   },
   {
-    "term": "Siła Woli",
-    "definition": "Liczba psychicznych obrażeń, które może znieść postać, oraz zdolność do pokonania przeciwności losu pod presją."
+    "book": "Świeża Krew",
+    "definition": "Jeden z siedmiu głównych klanów i jeden z dwóch kluczowych klanów Anarchistów. Znany także jako Klan Bestii lub Zwierzęta.",
+    "term": "Gangrel"
   },
   {
-    "term": "Skaza",
-    "definition": "Krzyżyk w pustym polu wskaźnika Człowieczeństwa, reprezentujący niemoralny czyn, który odcisnął ślad na duszy postaci."
+    "book": "Podstawowy podręcznik",
+    "definition": "Legendarny Armageddon, podczas którego Przedpotopowcy obudzą się z letargu i pochłoną rasę wampirów oraz cały świat.",
+    "term": "Gehenna"
   },
   {
-    "term": "Sprawdzian",
-    "definition": "Element mechaniki, dzięki któremu można określić, czy Głód (Sprawdzian Pobudzenia) lub Człowieczeństwo (test Skruchy) zmieniają wartość w trakcie lub na końcu sesji."
+    "book": "Podstawowy podręcznik",
+    "definition": "Sługa stworzony poprzez podanie vitae wampira śmiertelnikowi.",
+    "term": "Ghul"
   },
   {
-    "term": "Sprawdzian Pobudzenia",
-    "definition": "Sprawdzian, który wykonuje gracz, gdy postać używa darów Krwi."
+    "book": "Podstawowy podręcznik",
+    "definition": "Legendarny stan wampirycznej transcendencji, prawdziwe ujarzmienie Bestii oraz równowaga sprzecznych popędów i zasad.",
+    "term": "Golkonda"
   },
   {
-    "term": "Spokrewnienie",
-    "definition": "Akt przemiany śmiertelnika w wampira."
+    "book": "Świeża Krew",
+    "definition": "Niemożliwe do zaspokojenia pragnienie krwi, które nieustannie cierpią wszyscy Spokrewnieni.",
+    "term": "Głód"
   },
   {
-    "term": "Spokrewniony",
-    "definition": "Inaczej wampir."
+    "book": "Podstawowy podręcznik",
+    "definition": "Popęd żywienia się krwią.",
+    "term": "Głód"
   },
   {
-    "term": "Starszy",
-    "definition": "Zaawansowany wiekiem Spokrewniony. Starsi często sprawują władzę ze względu na swój wiek i doświadczenie."
+    "book": "Podstawowy podręcznik",
+    "definition": "Stopień, w jakim Spokrewniony zachowuje swoje człowieczeństwo.",
+    "term": "Humanitas (archaizm)"
   },
   {
-    "term": "Stopień Trudności (ST)",
-    "definition": "Określa, jak trudny będzie test. Stopień ten zostaje określony przez Narratora na podstawie okoliczności towarzyszących scenie oraz wszelkich okoliczności, które mogą komplikować lub upraszczać sytuację."
+    "book": "Podstawowy podręcznik",
+    "definition": "Sekta wampirów, które przestały interesować się sprawami innych Spokrewnionych, głównie Jyhadem.",
+    "term": "Inconnu"
   },
   {
-    "term": "Stowarzyszenie św. Leopolda",
-    "definition": "Tajna grupa łowców czarownic z Watykanu, mocno zaangażowana w działalność Drugiej inkwizycji."
+    "book": "Podstawowy podręcznik",
+    "definition": "Moment, kiedy żółtodziub staje się pełnoprawnym wampirem o statusie nowicjusza.",
+    "term": "Inicjacja"
   },
   {
-    "term": "Stwórca",
-    "definition": "Spokrewniony, który przeistoczył śmiertelnika. Krewny potomka."
+    "book": "Podstawowy podręcznik",
+    "definition": "Sekretna, wyniszczająca wojna panująca pomiędzy pokoleniami.",
+    "term": "Jyhad"
   },
   {
-    "term": "Świat Mroku",
-    "definition": "Świat, w którym osadzona jest gra Wampir: Maskarada."
+    "book": "Świeża Krew",
+    "definition": "Według legend był pierwszym Spokrewnionym, przeklętym przez Boga za zamordowanie swojego brata.",
+    "term": "Kain"
   },
   {
-    "term": "Testy",
-    "definition": "Mechanika stworzona do rozstrzygania wyników podejmowanych przez postacie działań, polegająca na obliczaniu puli kości i rzutach kośćmi."
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir, członek rasy Kaina.",
+    "term": "Kainita (archaizm)"
   },
   {
-    "term": "Test Skruchy",
-    "definition": "Test, który przechodzą pod koniec sesji postacie ze Skazami."
+    "book": "Podstawowy podręcznik",
+    "definition": "Grupa wampirów, które mają takie same cechy przekazywane poprzez Krew.",
+    "term": "Klan"
   },
   {
-    "term": "Toreador",
-    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Róży lub Diwami."
+    "book": "Świeża Krew",
+    "definition": "Trzynaście różnych rodów Spokrewnionych.",
+    "term": "Klany"
   },
   {
-    "term": "Tremere",
-    "definition": "Jeden z siedmiu głównych klanów, zwany również Rozbitym Klanem lub Czarnoksiężnikami."
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir, który nie ma stałego schronienia i co noc śpi w innym miejscu.",
+    "term": "Kocur (wulg.)"
   },
   {
-    "term": "Umiejętności",
-    "definition": "Cechy, które definiują wszystkie wyuczone zdolności postaci."
+    "book": "Podstawowy podręcznik",
+    "definition": "Zob. casanova i syrena.",
+    "term": "Kokietka"
   },
   {
-    "term": "Ventrue",
-    "definition": "Jeden z siedmiu głównych klanów i de facto przywódcy Camarilli. Znani również jako Klan Królów lub Błękitnokrwiści."
+    "book": "Świeża Krew",
+    "definition": "Sytuacja, w której dwie lub więcej postaci toczy między sobą walkę fizyczną lub werbalną.",
+    "term": "Konflikt"
   },
   {
-    "term": "Zdrowie",
-    "definition": "Wskaźnik liczby obrażeń fizycznych, jakie może znieść postać."
+    "book": "Podstawowy podręcznik",
+    "definition": "Mała grupa Spokrewnionych, zjednoczonych potrzebą wzajemnego wsparcia, a czasami wspólnym interesem.",
+    "term": "Koteria"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Czerwone kości używane w Wampirze w celu zobrazowania, jak silna staje się Bestia w miarę wzrostu Głodu.",
+    "term": "Kości Głodu"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Nadprzyrodzona, quasi-świadoma Krew wampira, różna od krwi śmiertelników i zwierząt.",
+    "term": "Krew"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Śmiertelnik, który z własnej woli oddaje swoją krew wampirowi.",
+    "term": "Krwawa lalka (wulg.)"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Kiedy zostanie wyrzucony krytyczny sukces, w którego skład wchodzi przynajmniej jeden na kości Głodu; oznacza to, że sukces przekracza oczekiwania, jednak dochodzi do użycia niepotrzebnej siły, co daje katastrofalne skutki.",
+    "term": "Krwawa wygrana"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Kara ostatecznej śmierci od kłów innych Spokrewnionych.",
+    "term": "Krwawe łowy"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Pogardliwe określenie śmiertelnika, które oznacza, że jego podstawową rolą jest bycie źródłem pożywienia.",
+    "term": "Krwiodawca (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir, który rości sobie prawo do własnej domeny, zazwyczaj miasta, i jest w stanie obronić te roszczenia przed innymi.",
+    "term": "Książę"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Zbiór legend i opowieści Spokrewnionych.",
+    "term": "Księga Nod"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Kodeks i system kar Spokrewnionych.",
+    "term": "Lex Talionis (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Podporządkowanie trzody w domenie lub na terenie łowieckim.",
+    "term": "Lien (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Dziedzictwo wampira.",
+    "term": "Linia Krwi"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Teren łowiecki, który obejmuje bary, kluby nocne, narkotykowe meliny i inne lokale, gdzie śmiertelnicy cały czas znikają.",
+    "term": "Lunapark (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wilkołak, naturalny i śmiertelny wróg wampirów.",
+    "term": "Lupin"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Księżyca lub Wyroczniami.",
+    "term": "Malkavian"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Fałszywa, śmiertelna tożsamość Spokrewnionego, która używana jest, aby ukrywać się wśród swoich ofiar.",
+    "term": "Maska"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Tradycja nakazująca Spokrewnionym za wszelką cenę utrzymać swoją prawdziwą naturę w tajemnicy przed śmiertelnikami.",
+    "term": "Maskarada"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Zwyczaj (lub Tradycja) ukrywania istnienia wampirów przed ludzkością.",
+    "term": "Maskarada"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir istniejący od co najmniej tysiąca lat, starszy nie uczestniczący już w społeczeństwie.",
+    "term": "Matuzalem"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Rezonans ofiar, które są smutne, przestraszone lub przygnębione.",
+    "term": "Melancholiczny"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir, który żywi się vitae innych Kainitów z konieczności lub z perwersji.",
+    "term": "Modliszka (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Bydlęce masy ludzi, zwłaszcza prostych i odstręczających. Motłoch jest uważany głównie za źródło pożywienia. Zob. trzoda.",
+    "term": "Motłoch (archaizm)"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Różnica w zdanym teście pomiędzy liczbą wyrzuconych a ustalonym przez Narratora ST testu.",
+    "term": "Nadwyżka"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Zdolność podniesienia wartości jednego z Atrybutów za pomocą Pobudzenia Krwi.",
+    "term": "Napływ Krwi"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Gracz, który bierze na siebie zadanie poprowadzenia historii.",
+    "term": "Narrator"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Ktoś będący pod wpływem Więzi Krwi. Tworzy się ona po tym, jak wypije się trzy razy krew tego samego Spokrewnionego.",
+    "term": "Niewolnik krwi"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir pozostający poza społecznością Spokrewnionych danego miasta albo z niewiedzy, albo z wyboru. Przez Camarillę uważany zwykle za Anarchistę, chociaż większość niezwiązanych nie ma nic wspólnego z Ruchem.",
+    "term": "Niezwiązany"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Ukrytych lub Szczurami.",
+    "term": "Nosferatu"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Niedawno Spokrewniony wampir, ale starszy niż Żółtodziób.",
+    "term": "Nowicjusz"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Kiedy wampir przestaje istnieć, przekraczając granice pomiędzy nieżyciem i prawdziwą śmiercią.",
+    "term": "Ostateczna śmierć"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Dzielnica czerwonych latarni, obszar miasta pełen barów, burdeli, kasyn i innych lokali o podejrzanej reputacji. Podstawowy miejski teren łowiecki, na którym zaginięcia śmiertelników idą w parze z ogólną obskurnością.",
+    "term": "Papillon (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir z niewiadomego klanu lub bezklanowiec. Pariasi są z reguły z późnego pokolenia, w którym krew Kaina jest zbyt rozcieńczona, żeby przenosić jakieś konkretne cechy.",
+    "term": "Parias"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Pogardliwe określenie wampira interesującego się trendami i modą śmiertelników.",
+    "term": "Peruka (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir żerujący wyłącznie na śpiących ludziach.",
+    "term": "Piaskun (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir żerujący na śmiertelnikach będących pod wpływem alkoholu lub narkotyków, żeby doświadczyć ich upojenia.",
+    "term": "Pijak"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir. Zob. Spokrewnieni i Kainita.",
+    "term": "Pijawka (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Picie krwi, zwłaszcza śmiertelnika. Pocałunek wywołuje ekstazę u tych, którzy padają jego ofiarami.",
+    "term": "Pocałunek"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Każdy test, w którym gracz wykonuje rzut przeciwko aktywnie stawiającemu opór przeciwnikowi.",
+    "term": "Pojedynek"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Liczba „kroków” pomiędzy wampirem i mitycznym Kainem. Określa jak daleko spokrewniony jest dany wampir z Pierwszym.",
+    "term": "Pokolenie"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "„Z tej samej krwi”, zwykle oznacza ród.",
+    "term": "Pokrewny (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Bezpieczeństwo i ochrona w domenie lub na terenie łowieckim.",
+    "term": "Portillon (archaizm)"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "„Dziecię” wampira; krewny stwórcy.",
+    "term": "Potomek"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir stworzony poprzez Spokrewnienie. Potomek należy do progenitury swojego stwórcy. Termin ten jest często używany pogardliwie, oznaczając wtedy kogoś niedoświadczonego.",
+    "term": "Potomek"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Obrażenia spowodowane przez światło słoneczne, ogień, nadprzyrodzone moce lub nadmierne użycie siły; zarówno fizyczne (obrażenia Zdrowia), jak i psychiczne (obrażenia Siły Woli).",
+    "term": "Poważne Obrażenia"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Prawo Książąt do władzy i domeny. Termin ten odnosi się również do polityki Księcia oraz jego pojedynczych edyktów i wniosków.",
+    "term": "Praxis (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wszyscy potomkowie wampira.",
+    "term": "Progenitura"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Każdy test, w którym nie występuje żaden aktywny przeciwnik.",
+    "term": "Prosty test"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Członek budzącego grozę trzeciego pokolenia.",
+    "term": "Przedpotopowiec"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Rasa Kainitów, wampirów.",
+    "term": "Przeklęci (wulg.)"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Liczba kości potrzebnych graczowi do wykonania testu. Pulę kości ustala Narrator, dodając do siebie dwie Cechy, których będzie używał gracz. W większości przypadków są to Atrybut i Umiejętność lub Atrybut i Dyscyplina.",
+    "term": "Pula kości"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Obszary miasta nie nadające się do życia, m.in. cmentarze, opuszczone budynki oraz tereny przemysłowe i zrujnowane.",
+    "term": "Pustkowie"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir „tyfusowa Mary”, który jest nosicielem śmiertelnej choroby i przenosi ją na wszystkich swoich żywicieli.",
+    "term": "Pęcherz"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Współczesne określenie oznaczające domenę.",
+    "term": "Rewir (wulg.)"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Specyficzne cechy i smak krwi ofiary.",
+    "term": "Rezonans"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Ktoś, kto żeruje na bezdomnych i innych odrzuconych przez społeczeństwo. Zob. kocur.",
+    "term": "Rozbójnik (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Typowy gość Lunaparku, zwłaszcza w celach żerowania.",
+    "term": "Rozpustnik (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Linia krwi wampira; stwórca Spokrewnionego, stwórca stwórcy, itd.",
+    "term": "Ród"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Sekta wampirów odrzucających człowieczeństwo i akceptujących swoją potworną naturę. Sądzi się, że toczą one Wojnę Gehenny, po tym jak opuścili swoje terytoria na Zachodzie lub zostali z nich wyparci.",
+    "term": "Sabat"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Rezonans ofiar, które są szczęśliwe, podniecone lub nadmiernie podekscytowane.",
+    "term": "Sangwiniczny"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "„Dom” lub kryjówka wampira, gdzie chroni się on przed światłem słonecznym.",
+    "term": "Schronienie"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Grupa wampirów zjednoczonych wspólną filozofią. Dwie najbardziej znane sekty działające obecnie to Camarilla i Ruch Anarchistów.",
+    "term": "Sekta"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Liczba psychicznych obrażeń, które może znieść postać, oraz zdolność do pokonania przeciwności losu pod presją.",
+    "term": "Siła Woli"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Krzyżyk w pustym polu wskaźnika Człowieczeństwa, reprezentujący niemoralny czyn, który odcisnął ślad na duszy postaci.",
+    "term": "Skaza"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Określenie wampirów i wampira używane przez Camarillę. Jak wieść niesie, termin ten pojawił się w XV-XVI wieku po Rewolcie Anarchistów.",
+    "term": "Spokrewnieni, Spokrewniony"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Akt przemiany śmiertelnika w wampira.",
+    "term": "Spokrewnienie"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Akt przekształcenia śmiertelnika w wampira. Spokrewnienie polega na całkowitym wypiciu krwi ofiary i zastąpieniu jej jakąś ilością własnej Krwi.",
+    "term": "Spokrewnienie"
+  },
+  {
+    "definition": "Inaczej wampir.",
+    "term": "Spokrewniony"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Element mechaniki, dzięki któremu można określić, czy Głód (Sprawdzian Pobudzenia) lub Człowieczeństwo (test Skruchy) zmieniają wartość w trakcie lub na końcu sesji.",
+    "term": "Sprawdzian"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Sprawdzian, który wykonuje gracz, gdy postać używa darów Krwi.",
+    "term": "Sprawdzian Pobudzenia"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Zaawansowany wiekiem Spokrewniony. Starsi często sprawują władzę ze względu na swój wiek i doświadczenie.",
+    "term": "Starszy"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir, który ma za sobą co najmniej dwa stulecia nieżycia. Starsi są najaktywniejszymi uczestnikami Jyhadu.",
+    "term": "Starszy"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Określa, jak trudny będzie test. Stopień ten zostaje określony przez Narratora na podstawie okoliczności towarzyszących scenie oraz wszelkich okoliczności, które mogą komplikować lub upraszczać sytuację.",
+    "term": "Stopień Trudności (ST)"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Tajna grupa łowców czarownic z Watykanu, mocno zaangażowana w działalność Drugiej inkwizycji.",
+    "term": "Stowarzyszenie św. Leopolda"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Spokrewniony, który przeistoczył śmiertelnika. Krewny potomka.",
+    "term": "Stwórca"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Przodek wampira, Spokrewniony, który go stworzył.",
+    "term": "Stwórca"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir uwodzący śmiertelników, żeby pić z nich krew. Pije on tylko niewielką ilość, żeby nie umarli.",
+    "term": "Syrena (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Pogardliwe określenie młodszych Spokrewnionych, używane zwłaszcza w określeniu do własnego potomstwa.",
+    "term": "Szczeniak (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Zwyczaj żerowania na bezdomnych, włóczęgach i menelach. Ktoś, kto to robi to sęp.",
+    "term": "Sępienie"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Człowiek służący wampirzemu panu. Rzadko kiedy zdarza się, żeby Spokrewnieni nie mieli żadnych śmiertelnych sług, zarówno dla wygody, jak i ochrony.",
+    "term": "Sługa"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Test, który przechodzą pod koniec sesji postacie ze Skazami.",
+    "term": "Test Skruchy"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Mechanika stworzona do rozstrzygania wyników podejmowanych przez postacie działań, polegająca na obliczaniu puli kości i rzutach kośćmi.",
+    "term": "Testy"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Klanem Róży lub Diwami.",
+    "term": "Toreador"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Jeden z siedmiu głównych klanów, zwany również Rozbitym Klanem lub Czarnoksiężnikami.",
+    "term": "Tremere"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Kain, który został wypędzony i został pierwszym wampirem.",
+    "term": "Trzeci śmiertelnik (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Określenie śmiertelników, zazwyczaj pogardliwe. Zwrot ten używany jest często przez wampiry, aby wyrazić ich wzgardę dla ludzi, których uważają za podatnych ofiar.",
+    "term": "Trzoda"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Cechy, które definiują wszystkie wyuczone zdolności postaci.",
+    "term": "Umiejętności"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Jeden z siedmiu głównych klanów i de facto przywódcy Camarilli. Znani również jako Klan Królów lub Błękitnokrwiści.",
+    "term": "Ventrue"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Krew wampira.",
+    "term": "Vitae (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Pogardliwa nazwa kogoś, kto pije wyłącznie krew zwierząt. Zob. farmer.",
+    "term": "Weganin"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Mistyczna relacja władzy panująca pomiędzy dwójką wampirów, lub wampirem i śmiertelnikiem, która tworzy się, gdy jeden z nich wypił trzykrotnie krew drugiego. Przyjęcie krwi od innego wampira oznacza uznanie go za swojego władcę.",
+    "term": "Więź krwi"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Spokrewniony, który związał innego Więzią Krwi.",
+    "term": "Władca"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Wskaźnik liczby obrażeń fizycznych, jakie może znieść postać.",
+    "term": "Zdrowie"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir, który uległ Bestii, niewolnik Krwi.",
+    "term": "Zjawa"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Moment, kiedy osoba przestaje być śmiertelnikiem i staje się Spokrewnionym.",
+    "term": "Zmiana (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Zob. cienkokrwiści.",
+    "term": "Zrodzeni o zmierzchu"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Spokrewniony, który żeruje na ludziach pod wpływem alkoholu lub narkotyków, żeby za ich pośrednictwem doświadczyć tych samych doznań.",
+    "term": "Ćpun (wulg.)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Śmiertelnik polujący na wampiry i inne nadprzyrodzone istoty.",
+    "term": "Łowca Czarownic (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Wampir polujący na innych Spokrewnionych i żywiący się ich krwią.",
+    "term": "Łowca Głów (wulg.)"
+  },
+  {
+    "book": "Świeża Krew",
+    "definition": "Świat, w którym osadzona jest gra Wampir: Maskarada.",
+    "term": "Świat Mroku"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Eufemizm oznaczający krew śmiertelników. Wielu Spokrewnionych uważa to określenie za afektowane i zniewieściałe.",
+    "term": "Życie (archaizm)"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Źródło krwi pitej z konieczności lub dla przyjemności, zazwyczaj śmiertelnik.",
+    "term": "Żywiciel"
+  },
+  {
+    "book": "Podstawowy podręcznik",
+    "definition": "Świeżo stworzony wampir, który znajduje się wciąż pod opieką swojego stwórcy.",
+    "term": "Żółtodziób"
   }
 ]

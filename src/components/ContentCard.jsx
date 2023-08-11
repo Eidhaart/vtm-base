@@ -7,13 +7,13 @@ const ContentCard = ({ title, desc, link, src }) => {
   return (
     <div className="card">
       <Link to={link}>
-        <button>
+        <button className="card-button">
           <img src={src} alt={title} />
           <h3>
             {title}
           </h3>
           {/* <br></br> */}
-          <p>
+          <p className="card-button-p">
             {desc}
           </p>
         </button>

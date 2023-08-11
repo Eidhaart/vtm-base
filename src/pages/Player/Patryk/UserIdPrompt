@@ -1,0 +1,24 @@
+import React, { useState } from "react";
+
+const UserIdPrompt = ({ onUserIdSubmit }) => {
+  const [userId, setUserId] = useState("");
+
+  const handleSubmit = () => {
+    localStorage.setItem("userId", userId);
+    onUserIdSubmit(userId);
+  };
+
+  return (
+    <div className="user-id-prompt">
+      <label>Please enter your User ID:</label>
+      <input
+        type="text"
+        value={userId}
+        onChange={e => setUserId(e.target.value)}
+      />
+      <button onClick={handleSubmit}>Submit</button>
+    </div>
+  );
+};
+
+export default UserIdPrompt(props);
