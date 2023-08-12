@@ -5,13 +5,14 @@ import Players from "../../Characters/Players/Players";
 import Dangers from "../../Dangers/Dangers";
 import Baza from "../../Baza/Baza";
 import ClansBetter from "../../Clans/ClansBetter";
+import System from "../../System/System";
 
 const componentsList = [
   { name: "", component: "" },
   { name: "ClansBetter", component: "ClansBetter" },
   { name: "NPC", component: "NPC" },
   { name: "Zagrozenia", component: "Dangers" },
-  { name: "Baza wiedzy", component: "Baza" },
+  { name: "System", component: "System" },
   { name: "Gracze", component: "Players" }
 ];
 
@@ -21,12 +22,7 @@ function RenderComponent({ component }) {
       return <ClansBetter />;
     case "NPC":
       return <NPC />;
-    case "Zagrozenia":
-      return <Dangers />;
-    case "Baza wiedzy":
-      return <Baza />;
-    case "Gracze":
-      return <Players />;
+
     default:
       return null;
   }

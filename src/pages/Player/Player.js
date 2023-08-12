@@ -4,6 +4,7 @@ import NotesApp from "./Patryk/NotesApp";
 import RenderApp from "./Patryk/RenderApp";
 import "./Player.css";
 import PhoneApp from "./Patryk/PhoneApp";
+import ModalWrapper from "../../components/ModalWrapper/ModalWrapper";
 
 function Player() {
   const [userId, setUserId] = useState(localStorage.getItem("userId") || "");
@@ -27,15 +28,33 @@ function Player() {
     [userId]
   );
 
+  function SampleComponent() {
+    return <PhoneApp key={userId} userId={userId} />;
+  }
+
   console.log("In Player - userId:", userId);
 
   return (
-    <div>
+    <div className="player-container">
+      <span className="character-name">
+        {userId}
+      </span>
       <div className="column">
-        {" "}<PhoneApp key={userId} userId={userId} />
+        <ModalWrapper
+          className="modal-wrapper-cont"
+          Component={SampleComponent}
+          button={"📱"}
+        />
+      </div>
+      <div className="player-apps">
+        <NotesApp />
+
+        <RenderApp />
       </div>
 
-      <button onClick={handleClearUserId}>Clear User ID</button>
+      <button className="clear-id" onClick={handleClearUserId}>
+        Clear User ID
+      </button>
     </div>
   );
 }

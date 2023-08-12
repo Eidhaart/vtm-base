@@ -1,8 +1,44 @@
-.column-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
-}
 .column {
+  display: flex;
+  justify-content: center;
+
   margin: 0;
   padding: 0;
+}
+
+.modal-wrapper-cont {
+  position: fixed !important;
+  top: 100px;
+  left: 0px;
+}
+
+.clear-id {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  color: wheat;
+  border: none;
+  height: 40px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.player-apps {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-name {
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  font-size: 30px;
+  font-family: "diablo";
+  text-align: center;
+  color: white;
+}
+.player-container {
+  display: flex;
+  flex-direction: column;
 }

@@ -46,8 +46,8 @@ body.active-modal {
 .overlay {
   background: rgba(28, 28, 29, 0.849);
 }
-.modal-content {
-  position: absolute;
+.clan-modal-content {
+  position: fixed;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -70,12 +70,12 @@ body.active-modal {
   scrollbar-width: none;
 }
 
-.modal-content::-webkit-scrollbar {
+.clan-modal-content::-webkit-scrollbar {
   display: none;
 }
 
 @media screen and (max-width: 800px) {
-  .modal-content {
+  .clan-modal-content {
     min-width: 60%;
   }
 }

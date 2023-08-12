@@ -5,7 +5,6 @@
 
   color: white;
   padding: 10px;
-  width: 50%;
 }
 
 .render-app .grid-view {
@@ -19,7 +18,18 @@
   padding-bottom: 20px;
 }
 
-
+.symbol-container {
+  background-color: black;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+.symbol {
+  font-size: 40px;
+  color: white;
+}
 
 .render-app .column-view {
   display: flex;
@@ -44,7 +54,7 @@
 
   margin-bottom: 10px;
   position: absolute;
-  z-index: 2;
+  z-index: 0;
   scrollbar-width: none;
 }
 
