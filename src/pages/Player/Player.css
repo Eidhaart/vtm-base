@@ -1,14 +1,18 @@
 .column {
   display: flex;
   justify-content: center;
-
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  border: solid white;
+  border-radius: 50%;
   margin: 0;
   padding: 0;
 }
 
 .modal-wrapper-cont {
   position: fixed !important;
-  top: 100px;
+  top: 120px !important;
   left: 0px;
 }
 
@@ -27,12 +31,13 @@
 .player-apps {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .character-name {
   position: absolute;
   left: 10px;
-  top: 100px;
+  top: 110px;
   font-size: 30px;
   font-family: "diablo";
   text-align: center;

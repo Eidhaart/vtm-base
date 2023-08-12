@@ -1,3 +1,5 @@
+.message-container-relative {
+}
 .message-container {
   background-color: #1d1d20;
   color: #fff;
@@ -14,10 +16,10 @@
   scrollbar-width: none;
 
   height: 60vh;
+  filter: none;
 }
 .phone-app-container {
   width: 100%;
-  z-index: 9999999;
 }
 
 .message-container::-webkit-scrollbar {
@@ -106,10 +108,11 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  z-index: 9999; /* Ensure modal is above all other content */
+  /* Ensure modal is above all other content */
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99999;
 }
 
 .add-input {
@@ -203,7 +206,7 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.493);
-  z-index: 100; /* Adjust z-index if needed */
+  /* Adjust z-index if needed */
 }
 
 .sender-menu {
@@ -215,7 +218,7 @@
   background-color: #2a2a2c;
   overflow-y: auto;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-  z-index: 101; /* Ensure the menu is above the overlay */
+  /* Ensure the menu is above the overlay */
   transition: all 0.3s;
 }
 

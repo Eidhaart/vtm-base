@@ -40,6 +40,7 @@ function Player() {
         {userId}
       </span>
       <div className="column">
+        
         <ModalWrapper
           className="modal-wrapper-cont"
           Component={SampleComponent}
