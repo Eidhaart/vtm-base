@@ -8,8 +8,7 @@ const CardComponent = ({
   description,
   side,
   level,
-  cornerImgSrc,
-  modal
+  cornerImgSrc
 }) => {
   return (
     <div className="full-container">

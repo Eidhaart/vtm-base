@@ -1,44 +1,58 @@
 .camarilla {
-  color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  vertical-align: top;
-  height: auto;
-
-  background-color: rgba(0, 0, 0, 0.582);
-  border-radius: 20px;
-  scrollbar-gutter: none;
-  margin: 15px;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.camarilla-list {
-  margin-left: 15%;
-}
-
-.camarilla img {
-  border-radius: 50%;
-  width: 200px;
-}
-
-.list-item {
+.camarilla-content {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  align-items: center;
 }
-.list-item p {
-  font-family: 'baskerville';
-  font-size: 18px;
-  width: 100%;
-}
+
 .camarilla h1 {
-  text-align: center;
-  font-family: 'Diablo';
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
 }
-.camarilla h2 {
-  font-family: 'Baskerville';
+
+.camarilla-tree {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.camarilla-text {
+  width: 80%; /* Adjust width to your preference */
+  text-align: left;
 }
 
 .camarilla-desc {
-  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.list-item {
+  margin-bottom: 20px;
+}
+
+.list-item h2 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.list-item p {
+  margin: 0;
+  color: #777;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 600px) {
+  .camarilla-text {
+    width: 100%;
+  }
 }

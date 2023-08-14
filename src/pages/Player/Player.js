@@ -5,6 +5,11 @@ import RenderApp from "./Patryk/RenderApp";
 import "./Player.css";
 import PhoneApp from "./Patryk/PhoneApp";
 import ModalWrapper from "../../components/ModalWrapper/ModalWrapper";
+import Walerian from "./Knowledge/Walerian/Walerian";
+import Godrick from "./Knowledge/Godrick/Godrick";
+import Sebastian from "./Knowledge/Sebastian/Sebastian";
+import Mary from "./Knowledge/Mary/Mary";
+import Allan from "./Knowledge/Allan/Allan";
 
 function Player() {
   const [userId, setUserId] = useState(localStorage.getItem("userId") || "");
@@ -13,6 +18,23 @@ function Player() {
     localStorage.removeItem("userId");
     setUserId("");
   };
+
+  function CharPage({ userId }) {
+    switch (userId) {
+      case "walerian":
+        return <Walerian />;
+      case "sebastian":
+        return <Sebastian />;
+      case "godrick":
+        return <Godrick />;
+      case "mary":
+        return <Mary />;
+      case "allan":
+        return <Allan />;
+      default:
+        return null;
+    }
+  }
 
   // On component mount, if no userId is in localStorage, prompt the user for it.
   useEffect(
@@ -40,7 +62,6 @@ function Player() {
         {userId}
       </span>
       <div className="column">
-        
         <ModalWrapper
           className="modal-wrapper-cont"
           Component={SampleComponent}
@@ -48,9 +69,7 @@ function Player() {
         />
       </div>
       <div className="player-apps">
-        <NotesApp />
-
-        <RenderApp />
+        <CharPage userId={userId}/>
       </div>
 
       <button className="clear-id" onClick={handleClearUserId}>

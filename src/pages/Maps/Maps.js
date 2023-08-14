@@ -423,7 +423,82 @@ function Maps() {
         <img className="map" src={require("./op1.png")} />
       </div>
       <div className="accord">
-        <SimpleAccordion />
+        <SimpleAccordion
+          title={"Södermalm"}
+          desc={
+            <div className="accord-container">
+              <div className="accord-column">
+                <ul>
+                  <li>
+                    <h3>Klub Sebastiana</h3>
+                    <span>
+                      "Sense" to luksusowy klub nocny i restauracja w centrum
+                      Sztokholmu, charakteryzujący się nowoczesnym designem,
+                      neonowym oświetleniem i geometrycznymi kształtami. To
+                      miejsce, gdzie goście mogą delektować się wykwintnymi
+                      potrawami i koktajlami do wczesnych godzin porannych. Za
+                      jego prowadzenie odpowiada tajemniczy Julio Bousquets,
+                      który w rzeczywistości jest wampirem Sebastianem z klanu
+                      Toreador. Choć dla ludzi jest on jedynie ekscentrycznym
+                      właścicielem, w świecie nocy prowadzi tu skomplikowane
+                      interesy. Menedżerem klubu jest Szymon Bobovitch, zapalony
+                      miłośnik okultyzmu, który nie jest świadomy prawdziwej
+                      tożsamości swojego szefa. Dla ludzi "Sense" to modny punkt
+                      na mapie Sztokholmu, dla wampirów - miejsce spotkań i
+                      biznesów w cieniu.
+                    </span>
+                  </li>
+                  <li>
+                    <h3>Kościół Katarzyny</h3>
+                    <span>
+                      Kościół Katarzyny, zwanym też Katarina Kyrkan, z daleka
+                      prezentuje się jak typowy zabytek historyczny w sercu
+                      Sztokholmu. Jego charakterystyczne wieże i barokowe fasady
+                      skrywają jednak tajemnicę, której nie jest świadomy żaden
+                      mieszkaniec miasta. W rzeczywistości, świątynia służy jako
+                      główne centrum operacyjne Stowarzyszenia Św. Leopolda,
+                      tajnej organizacji kościelnej, której celem jest badanie i
+                      zwalczanie wampirów oraz innych stworzeń nocy. Wnętrze
+                      kościoła zostało przystosowane do potrzeb stowarzyszenia:
+                      podziemia świątyni zamieniły się w laboratoria, gdzie
+                      kapłani i naukowcy badają relikty i artefakty związane z
+                      wampirami. Katakumby kościoła służą jako lochy dla
+                      pojmanych stworzeń, a na wieży kościoła znajduje się punkt
+                      obserwacyjny, skąd członkowie stowarzyszenia monitorują
+                      aktywność wampirów w mieście.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div className="accord-column">
+                <ul>
+                  <li>
+                    <h3>Safehouse przy Fatbursparken</h3>
+                    <span>
+                      Zaledwie kilka kroków od spokojnego Fatbursparken, ukryte
+                      wśród starych budynków Södermalm, znajduje się schronienie
+                      dla wampirów. Z zewnątrz budynek wygląda na opuszczony i
+                      niepozorny, jednak jego wnętrze to prawdziwa forteca,
+                      stworzona z myślą o ochronie spokrewnionych. Grube mury,
+                      zabezpieczone okna oraz zaawansowane systemy zabezpieczeń
+                      chronią jego mieszkańców przed wścibskim okiem ludzi i
+                      wrogimi wampirami. W środku dominuje styl gotycki, z
+                      ciemnymi korytarzami, wysokimi sufitami i wieloma
+                      zakamarkami. W centralnej części schronienia znajduje się
+                      sala spotkań, gdzie spokrewieni mogą dyskutować o ważnych
+                      sprawach, planować akcje czy po prostu spędzać czas w
+                      towarzystwie. W budynku znajdują się także komnaty do
+                      spania, biblioteka pełna starożytnych tomów oraz podziemne
+                      piwnice służące jako magazyny krwi. W schronieniu panuje
+                      atmosfera względnego spokoju, choć jego mieszkańcy zawsze
+                      muszą być czujni na ewentualne zagrożenia.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          }
+        />
       </div>
     </div>
   );

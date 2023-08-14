@@ -66,10 +66,22 @@
   }
 }
 
+.cardContainer.left-column {
+  display: flex;
+  flex-direction: column;
+  transition: all .5s;
+}
+.cardContainer.right-column {
+  display: flex;
+  flex-direction: column;
+  transition: all .5s;
+}
+
 .imageContainer {
   position: relative;
   width: 200px;
-  height: auto;
+  height: 200px;
+  object-fit: contain;
   margin-right: 20px;
 }
 
@@ -99,8 +111,9 @@
 .cardImg {
   width: 100%;
   border-radius: 50%;
-  height: auto;
+  height: fit-content;
   margin-right: 20px;
+  object-fit: contain;
 }
 
 .cardInfo {
@@ -143,4 +156,8 @@
 }
 .primogen h3 {
   color: red !important;
+}
+
+.full-container {
+  margin-bottom: 20px !important;
 }

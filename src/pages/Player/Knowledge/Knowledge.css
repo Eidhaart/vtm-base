@@ -1,0 +1,39 @@
+.knowledge-content {
+  color: white;
+  transition: all .3s;
+}
+
+.gang-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .3s;
+}
+
+.gang-square {
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  padding: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.gang-square-img {
+  width: 150px;
+  height: 150px;
+  transition: all .3s;
+}
+
+.gang-wrapper {
+  width: 100%;
+  max-width: 970px;
+  position: relative;
+  transition: all .3s;
+}

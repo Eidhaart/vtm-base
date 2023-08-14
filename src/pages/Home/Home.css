@@ -12,3 +12,8 @@ body {
   overflow: scroll;
   margin-top: 10%;
 }
+
+@font-face {
+  font-family: 'diablo';
+  src: url('../../../public/assets/diablo.ttf') format('truetype');
+}

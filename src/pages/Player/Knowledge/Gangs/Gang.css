@@ -1,0 +1,103 @@
+.gang-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.gang-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.gang-card-container.left {
+  flex-direction: row-reverse;
+  transition: all .3s;
+}
+
+.gang-image-Container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-right: 20px;
+  transition: all .3s;
+}
+
+.gangImg {
+  width: 40%;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  object-fit: contain;
+  transition: all .3s;
+}
+
+.gang-info {
+  flex-grow: 1;
+}
+
+.gang-info h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'baskerville', serif;
+}
+
+.gang-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gang-info ul li {
+  padding: 8px 0;
+  font-weight: 500;
+  text-align: justify;
+}
+.gang-info ul li span {
+  font-weight: bold;
+  padding: 8px 0;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* Bold styling for the list prefixes */
+
+.full-container {
+  margin-bottom: 20px !important;
+}
+
+/* If you want to add color-specific classes, you can continue the pattern from your example */
+.prince h3 {
+  color: rgb(162, 0, 255) !important;
+}
+
+.primogen h3 {
+  color: red !important;
+}
+
+.sherrif h3 {
+  color: rgb(255, 145, 0) !important;
+}
+
+/* Additional styles that may be useful for your design */
