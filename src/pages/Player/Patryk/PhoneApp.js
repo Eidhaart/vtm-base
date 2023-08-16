@@ -121,7 +121,16 @@ const PhoneApp = ({ userId = "" }) => {
           setAvailableSenders(data.senderList);
         } else {
           // You can set a default list if there's no data for the user
-          setAvailableSenders(["Astrid", "Henrik", "Isabella"]);
+          setAvailableSenders([
+            "Astrid",
+            "Henrik",
+            "Isabella",
+            "Walerian",
+            "Sebastian",
+            "Allan",
+            "Mary",
+            "Godrick"
+          ]);
         }
       });
 
@@ -174,6 +183,22 @@ const PhoneApp = ({ userId = "" }) => {
       timestamp: serverTimestamp()
     });
 
+    const lowerCaseSender = targetSender.toLowerCase();
+
+    if (availableUserIds.includes(lowerCaseSender)) {
+      const additionalMessagesRef = collection(
+        db,
+        `messages-${lowerCaseSender}`
+      );
+      await addDoc(additionalMessagesRef, {
+        userId: lowerCaseSender,
+        sender: targetUserId, // the original user becomes the sender in this context
+        text: userInput,
+        me: false, // since it's from another user
+        timestamp: serverTimestamp()
+      });
+    }
+
     setUserInput("");
   };
 
@@ -217,6 +242,14 @@ const PhoneApp = ({ userId = "" }) => {
     });
   };
 
+  function getSenderImage(senderName) {
+    try {
+      return require(`./images/${senderName}.jpg`);
+    } catch (error) {
+      return require("./images/placeholder.jpg");
+    }
+  }
+
   return (
     <div className="phone-app-container">
       <div className="upper-bar-container">
@@ -257,13 +290,10 @@ const PhoneApp = ({ userId = "" }) => {
               ≡
             </span>
             <img
-              src={
-                currentSender
-                  ? require(`./images/${currentSender}.jpg`)
-                  : require("./images/placeholder.jpg")
-              }
+              src={getSenderImage(currentSender)}
               alt="x"
               className="profile-pic"
+              onerror="this.onerror=null; this.src={require('./images/placeholder.jpg')};"
             />
 
             {currentSender}
@@ -290,13 +320,10 @@ const PhoneApp = ({ userId = "" }) => {
                         -
                       </span>}
                     <img
-                      src={
-                        sender
-                          ? require(`./images/${sender}.jpg`)
-                          : require("./images/placeholder.jpg")
-                      }
+                      src={getSenderImage(sender)}
                       alt="x"
                       className="profile-pic"
+                      onerror="this.onerror=null; this.src={require('./images/placeholder.jpg')};"
                     />
 
                     {sender}
