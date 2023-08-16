@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9246e6df.css",
-    "main.js": "/static/js/main.2a05fe1c.js",
+    "main.css": "/static/css/main.2998f7d8.css",
+    "main.js": "/static/js/main.84c4f941.js",
     "static/js/787.4c822ba6.chunk.js": "/static/js/787.4c822ba6.chunk.js",
     "static/media/handbook.pdf": "/static/media/handbook.948d7ceadde773f93cdc.pdf",
     "static/media/SwedenCamarilla.png": "/static/media/SwedenCamarilla.ecebc7b8c7265e2ffdcd.png",
@@ -56,12 +56,12 @@
     "static/media/stockholm.png": "/static/media/stockholm.8512e15c200539419aa4.png",
     "static/media/signal.png": "/static/media/signal.9442d0700fa213b45138.png",
     "index.html": "/index.html",
-    "main.9246e6df.css.map": "/static/css/main.9246e6df.css.map",
-    "main.2a05fe1c.js.map": "/static/js/main.2a05fe1c.js.map",
+    "main.2998f7d8.css.map": "/static/css/main.2998f7d8.css.map",
+    "main.84c4f941.js.map": "/static/js/main.84c4f941.js.map",
     "787.4c822ba6.chunk.js.map": "/static/js/787.4c822ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9246e6df.css",
-    "static/js/main.2a05fe1c.js"
+    "static/css/main.2998f7d8.css",
+    "static/js/main.84c4f941.js"
   ]
 }
