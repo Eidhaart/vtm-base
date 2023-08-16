@@ -10,6 +10,7 @@ import Godrick from "./Knowledge/Godrick/Godrick";
 import Sebastian from "./Knowledge/Sebastian/Sebastian";
 import Mary from "./Knowledge/Mary/Mary";
 import Allan from "./Knowledge/Allan/Allan";
+import Backpack from "./Patryk/Backpack";
 
 function Player() {
   const [userId, setUserId] = useState(localStorage.getItem("userId") || "");
@@ -61,15 +62,29 @@ function Player() {
       <span className="character-name">
         {userId}
       </span>
-      <div className="column">
-        <ModalWrapper
-          className="modal-wrapper-cont"
-          Component={SampleComponent}
-          button={"📱"}
-        />
+
+      <div className="row-menu">
+        <div className="column">
+          <ModalWrapper
+            className="modal-wrapper-cont"
+            Component={Backpack}
+            button={"🎒"}
+            userId={userId}
+          />
+        </div>
+        <div className="column">
+          <ModalWrapper
+            className="modal-wrapper-cont"
+            Component={SampleComponent}
+            button={"📱"}
+          />
+        </div>
+
+        {/* Add more columns/items as needed */}
       </div>
+
       <div className="player-apps">
-        <CharPage userId={userId}/>
+        <CharPage userId={userId} />
       </div>
 
       <button className="clear-id" onClick={handleClearUserId}>

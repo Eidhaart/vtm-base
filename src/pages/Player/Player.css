@@ -1,14 +1,26 @@
-.column {
+.player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use full screen height */
+}
+
+.row-menu {
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 160px;
-  left: 20px;
-  border: solid white;
-  border-radius: 50%;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  gap: 40px; /* Spacing between the items */
 }
+
+.column {
+  width: 40px; /* Set according to the size of your menu item */
+  height: 40px;
+  text-align: center;
+  transition: transform 0.3s; /* Animation effect */
+}
+
+
 
 .modal-wrapper-cont {
   position: fixed !important;
@@ -42,8 +54,4 @@
   font-family: "diablo";
   text-align: center;
   color: white;
-}
-.player-container {
-  display: flex;
-  flex-direction: column;
 }

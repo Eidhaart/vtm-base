@@ -1,0 +1,83 @@
+/* Main Backpack Styles */
+.backpack-container {
+  background-color: #1b1b1b; /* A dark, muted color */
+  border: 1px solid #5e0b15; /* Slight dark red border */
+  width: 700px;
+  height: 370px;
+  position: relative;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #d4a5a5; /* Soft red color for the text */
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(94, 11, 21, 0.5); /* Subtle dark red shadow */
+  overflow: scroll;
+}
+
+/* Header */
+.backpack-header {
+  background-color: #5e0b15; /* Dark red */
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-family: "diablo", sans-serif; /* Your Diablo font, with a fallback to sans-serif */
+  letter-spacing: 2px; /* To give it a bit more styling */
+  font-size: 1.5em;
+  position: fixed;
+  width: 92%;
+}
+
+.item-container {
+  margin-top: 20px;
+}
+
+/* Individual Item Style */
+.backpack-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px dashed #5e0b15; /* Dashed separator in dark red */
+  padding-bottom: 10px;
+}
+
+/* Buttons */
+.backpack-button {
+  background-color: #5e0b15; /* Dark red */
+  color: white;
+  padding: 5px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-family: "diablo", sans-serif;
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 10px rgba(94, 11, 21, 0.3); /* Shadow for depth */
+}
+
+.backpack-button:hover {
+  background-color: #8e1d28; /* Slightly brighter red on hover */
+}
+
+/* Edit Mode Button */
+.edit-mode-button {
+  position: fixed;
+  bottom: 370px;
+  left: 10%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 0.9em;
+}
+
+/* Add Item Button */
+.add-item-button {
+  position: fixed;
+  bottom: 370px;
+  right: -60px;
+  z-index: 2;
+  transform: translateX(-50%);
+  font-size: 0.9em;
+}
