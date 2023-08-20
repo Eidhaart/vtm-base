@@ -13,6 +13,10 @@
   overflow: scroll;
 }
 
+.backpack-container::-webkit-scrollbar {
+  display: none;
+}
+
 /* Header */
 .backpack-header {
   background-color: #5e0b15; /* Dark red */

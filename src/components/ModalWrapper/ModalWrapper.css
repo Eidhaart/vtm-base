@@ -36,6 +36,10 @@
   scrollbar-width: none;
 }
 
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
   .modal-content {
     min-width: 600px;
