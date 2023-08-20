@@ -64,20 +64,32 @@
   border-radius: 50%;
   border: none;
   background-color: #000000;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   cursor: pointer;
   transition: all .3s;
   align-items: center;
   text-align: center;
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
+  padding-top: 10px;
 }
+
+.open-button img {
+  width: 50px;
+
+  filter: invert();
+}
+
+.open-button.unread {
+  border: solid 4px orange;
+}
+
 .open-button:hover {
   font-size: 40px;
   border-radius: 50%;
-  border: none;
+
   background-color: #333333;
-  filter: grayscale(1);
+
   cursor: pointer;
   transition: all .3s;
 }

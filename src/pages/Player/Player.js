@@ -11,14 +11,40 @@ import Sebastian from "./Knowledge/Sebastian/Sebastian";
 import Mary from "./Knowledge/Mary/Mary";
 import Allan from "./Knowledge/Allan/Allan";
 import Backpack from "./Patryk/Backpack";
+import backPack from "./Patryk/images/backpack.png";
+import {
+  query,
+  where,
+  getDocs,
+  collection,
+  onSnapshot,
+} from "firebase/firestore";
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import cellPhone from "./Patryk/images/cell-phone.png";
 
 function Player() {
   const [userId, setUserId] = useState(localStorage.getItem("userId") || "");
+
+  const [hasUnreadMessages, setHasUnreadMessages] = useState(false);
 
   const handleClearUserId = () => {
     localStorage.removeItem("userId");
     setUserId("");
   };
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAPYDmRtz_XsV6Y3YQzHJo-IWiZtEZ3kaM",
+    authDomain: "vtmapp-77b0b.firebaseapp.com",
+    projectId: "vtmapp-77b0b",
+    storageBucket: "vtmapp-77b0b.appspot.com",
+    messagingSenderId: "345873452144",
+    appId: "1:345873452144:web:52f2ad1c9e95fdb96fb8b5",
+    measurementId: "G-DWRE89XTZD",
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
 
   function CharPage({ userId }) {
     switch (userId) {
@@ -38,6 +64,7 @@ function Player() {
   }
 
   // On component mount, if no userId is in localStorage, prompt the user for it.
+
   useEffect(
     () => {
       if (!userId) {
@@ -46,6 +73,34 @@ function Player() {
           localStorage.setItem("userId", promptedUserId);
           setUserId(promptedUserId);
         }
+      }
+
+      if (userId) {
+        const fetchUnreadMessages = async () => {
+          const messagesRef = collection(db, `messages-${userId}`);
+          const q = query(
+            messagesRef,
+            where("userId", "==", userId),
+            where("read", "==", false)
+          );
+          const unsubscribe = onSnapshot(q, snapshot => {
+            setHasUnreadMessages(!snapshot.empty);
+          });
+
+          console.log("messages: " + q);
+
+          const querySnapshot = await getDocs(q);
+          console.log("Query snapshot:", querySnapshot);
+          if (querySnapshot.docs.length > 0) {
+            setHasUnreadMessages(true);
+            console.log("unread messages");
+          } else {
+            setHasUnreadMessages(false);
+            console.log("read messages");
+          }
+        };
+
+        fetchUnreadMessages();
       }
     },
     [userId]
@@ -68,15 +123,18 @@ function Player() {
           <ModalWrapper
             className="modal-wrapper-cont"
             Component={Backpack}
-            button={"🎒"}
+            button={backPack}
             userId={userId}
           />
         </div>
         <div className="column">
           <ModalWrapper
-            className="modal-wrapper-cont"
+            className={`modal-wrapper-cont ${hasUnreadMessages
+              ? "unread-messages"
+              : ""}`}
             Component={SampleComponent}
-            button={"📱"}
+            button={cellPhone}
+            unread={hasUnreadMessages}
           />
         </div>
 

@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import Draggable from "react-draggable";
 import "./ModalWrapper.css";
 
-function ModalWrapper({ Component, button, userId }) {
+function ModalWrapper({ Component, button, userId, unread }) {
   const [showModal, setShowModal] = useState(false);
 
   // Initial state for modal position
   const initialPosition = {
     x: 0,
-    y: 0
+    y: 0,
   };
 
   // State to manage modal's current position
@@ -25,7 +25,7 @@ function ModalWrapper({ Component, button, userId }) {
   const handleDragStop = (e, data) => {
     const newPosition = {
       x: data.x,
-      y: data.y
+      y: data.y,
     };
 
     // Set the new position to the state
@@ -37,8 +37,11 @@ function ModalWrapper({ Component, button, userId }) {
 
   return (
     <div>
-      <button className="open-button" onClick={() => setShowModal(true)}>
-        {button}
+      <button
+        className={`open-button ${unread ? "unread" : ""}`}
+        onClick={() => setShowModal(true)}
+      >
+        <img src={button} />
       </button>
 
       {showModal &&

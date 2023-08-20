@@ -9,8 +9,7 @@ import {
   addDoc,
   serverTimestamp,
   doc,
-  updateDoc,
-  getDocs,
+  updateDoc
 } from "firebase/firestore";
 import "./PhoneApp.css";
 import Astrid from "./images/Astrid.jpg";
@@ -24,7 +23,7 @@ const firebaseConfig = {
   storageBucket: "vtmapp-77b0b.appspot.com",
   messagingSenderId: "345873452144",
   appId: "1:345873452144:web:52f2ad1c9e95fdb96fb8b5",
-  measurementId: "G-DWRE89XTZD",
+  measurementId: "G-DWRE89XTZD"
 };
 
 // Initialize Firebase
@@ -39,19 +38,18 @@ const PhoneApp = ({ userId = "" }) => {
   const [userInput, setUserInput] = useState(""); // new state for user input
   const [adminUserId, setAdminUserId] = useState("");
   const [adminSender, setAdminSender] = useState("");
-  const [unreadSenders, setUnreadSenders] = useState(new Set());
   const availableUserIds = [
     "walerian",
     "sebastian",
     "godrick",
     "allan",
-    "mary",
+    "mary"
   ]; // Example user IDs
   const initialSenders = JSON.parse(localStorage.getItem("senders")) || [
     "Astrid",
     "Henrik",
     "Isabella",
-    "Loke",
+    "Loke"
   ];
   const [availableSenders, setAvailableSenders] = useState(() => {
     const savedSenders = localStorage.getItem("senders");
@@ -85,22 +83,15 @@ const PhoneApp = ({ userId = "" }) => {
       const unsubscribeMessages = onSnapshot(q, snapshot => {
         let fetchedSenders = new Set();
         let fetchedMessages = [];
-        setUnreadSenders(new Set());
 
         snapshot.docs.forEach(doc => {
           const data = doc.data();
           fetchedSenders.add(data.sender);
-          if (!data.read) {
-            setUnreadSenders(prev => new Set([...prev, data.sender]));
-          }
           if (currentSender === "" || currentSender === data.sender) {
             fetchedMessages.push({
               id: doc.id,
-              ...data,
+              ...data
             });
-
-            setSenders([...fetchedSenders]);
-            setMessages(fetchedMessages);
           }
 
           console.log("activeUserId:", activeUserId);
@@ -115,9 +106,9 @@ const PhoneApp = ({ userId = "" }) => {
           );
         });
 
-        // if (currentSender === "" && fetchedMessages.length > 0) {
-        //   setCurrentSender(fetchedMessages[0].sender);
-        // }
+        if (currentSender === "" && fetchedMessages.length > 0) {
+          setCurrentSender(fetchedMessages[0].sender);
+        }
 
         setSenders([...fetchedSenders]);
         setMessages(fetchedMessages);
@@ -138,7 +129,7 @@ const PhoneApp = ({ userId = "" }) => {
             "Sebastian",
             "Allan",
             "Mary",
-            "Godrick",
+            "Godrick"
           ]);
         }
       });
@@ -151,23 +142,9 @@ const PhoneApp = ({ userId = "" }) => {
     [userId, currentSender, adminUserId, adminSender]
   );
 
-  const handleSenderSelect = async sender => {
+  const handleSenderSelect = sender => {
     setCurrentSender(sender);
     setMenuOpen(false);
-
-    // Mark all messages from the selected sender as read
-    const targetUserId = userId === "admin" ? adminUserId : userId;
-    const messagesRef = collection(db, `messages-${targetUserId}`);
-    const q = query(
-      messagesRef,
-      where("sender", "==", sender),
-      where("read", "==", false)
-    );
-
-    const unreadMessagesSnapshot = await getDocs(q);
-    unreadMessagesSnapshot.forEach(doc => {
-      updateDoc(doc.ref, { read: true });
-    });
   };
 
   const handleInputChange = event => {
@@ -202,9 +179,8 @@ const PhoneApp = ({ userId = "" }) => {
       userId: userId == "admin" ? adminUserId : targetUserId,
       sender: targetSender,
       text: userInput,
-      me: userId !== "admin",
-      timestamp: serverTimestamp(),
-      read: false, // default to false
+      me: userId !== "admin", // set 'me' to false if logged in as admin
+      timestamp: serverTimestamp()
     });
 
     const lowerCaseSender = targetSender.toLowerCase();
@@ -219,8 +195,7 @@ const PhoneApp = ({ userId = "" }) => {
         sender: targetUserId, // the original user becomes the sender in this context
         text: userInput,
         me: false, // since it's from another user
-        timestamp: serverTimestamp(),
-        read: false, // default to false
+        timestamp: serverTimestamp()
       });
     }
 
@@ -231,7 +206,7 @@ const PhoneApp = ({ userId = "" }) => {
 
   const time = current.toLocaleTimeString("pl-PL", {
     hour: "2-digit",
-    minute: "2-digit",
+    minute: "2-digit"
   });
 
   const [selectedUserId, setSelectedUserId] = useState(userId); // State to manage selected userId when in admin mode
@@ -243,7 +218,7 @@ const PhoneApp = ({ userId = "" }) => {
       // Save to Firestore
       const sendersRef = doc(db, "senders", userId);
       updateDoc(sendersRef, {
-        senderList: updatedSenders,
+        senderList: updatedSenders
       });
 
       return updatedSenders;
@@ -260,7 +235,7 @@ const PhoneApp = ({ userId = "" }) => {
       // Save to Firestore
       const sendersRef = doc(db, "senders", userId);
       updateDoc(sendersRef, {
-        senderList: updatedSenders,
+        senderList: updatedSenders
       });
 
       return updatedSenders;
@@ -281,14 +256,6 @@ const PhoneApp = ({ userId = "" }) => {
         <div className="bar-time">
           {time}
         </div>
-        <div className="bar-time">
-          {unreadSenders.size > 0 &&
-            <div className="unread-notice">
-              Nieodczytane wiad. {unreadSenders.size} ({" "}
-              {Array.from(unreadSenders).join(", ")} )
-            </div>}
-        </div>
-
         <div className="bar-symbols">
           <div className="">
             <img
@@ -310,7 +277,6 @@ const PhoneApp = ({ userId = "" }) => {
           </div>
         </div>
       </div>
-
       <div className="message-container-relative">
         <div className="message-container">
           {menuOpen &&
@@ -342,11 +308,6 @@ const PhoneApp = ({ userId = "" }) => {
                     key={sender}
                     onClick={
                       isEditMode ? null : () => handleSenderSelect(sender)
-                    }
-                    style={
-                      unreadSenders.has(sender)
-                        ? { backgroundColor: "orange" }
-                        : {}
                     }
                   >
                     {isEditMode &&
@@ -402,33 +363,30 @@ const PhoneApp = ({ userId = "" }) => {
               </li>
             </div>}
 
-          {currentSender &&
-            <ul className="message-list">
-              {messages.map(message =>
-                <div className="messages-list-content">
-                  <li
-                    key={message.id}
-                    className={`message-item ${message.me ? "me" : ""}`}
-                  >
-                    <div className="message-content">
-                      {message.text}
-                    </div>
-                  </li>
-                </div>
-              )}
-            </ul>}
+          <ul className="message-list">
+            {messages.map(message =>
+              <div className="messages-list-content">
+                <li
+                  key={message.id}
+                  className={`message-item ${message.me ? "me" : ""}`}
+                >
+                  <div className="message-content">
+                    {message.text}
+                  </div>
+                </li>
+              </div>
+            )}
+          </ul>
         </div>
-        {currentSender &&
-          <form className="send-form" onSubmit={handleSendMessage}>
-            <input
-              type="text"
-              value={userInput}
-              onChange={handleInputChange}
-              className="blinking-caret"
-            />
-            <button type="submit">➤</button>
-          </form>}
-
+        <form className="send-form" onSubmit={handleSendMessage}>
+          <input
+            type="text"
+            value={userInput}
+            onChange={handleInputChange}
+            className="blinking-caret"
+          />
+          <button type="submit">➤</button>
+        </form>
         <div className="symbol-container">
           <div className="symbol">🔲</div>
           <div className="symbol">◯</div>

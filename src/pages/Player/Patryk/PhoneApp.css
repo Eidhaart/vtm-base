@@ -22,6 +22,13 @@
   width: 100%;
 }
 
+.unread-notice {
+  font-family: "poppins";
+  height: 20px !important;
+  font-size: 15px;
+  color: orange;
+}
+
 .message-container::-webkit-scrollbar {
   display: none;
 }
@@ -359,8 +366,8 @@
 .upper-bar-symbol {
   margin: 3px;
   filter: invert(1);
-  width: 20px;
   height: 20px;
+  width: 20px;
 }
 
 .upper-bar-container {
