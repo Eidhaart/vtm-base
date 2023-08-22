@@ -13,6 +13,13 @@
   overflow: scroll;
 }
 
+@media screen and (max-width: 700px) {
+  .backpack-container {
+    height: 85vh;
+    min-width: none;
+  }
+}
+
 .backpack-container::-webkit-scrollbar {
   display: none;
 }

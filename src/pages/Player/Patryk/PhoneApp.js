@@ -115,9 +115,9 @@ const PhoneApp = ({ userId = "" }) => {
           );
         });
 
-        // if (currentSender === "" && fetchedMessages.length > 0) {
-        //   setCurrentSender(fetchedMessages[0].sender);
-        // }
+        if (currentSender === "" && fetchedMessages.length > 0) {
+          setCurrentSender(fetchedMessages[0].sender);
+        }
 
         setSenders([...fetchedSenders]);
         setMessages(fetchedMessages);
@@ -195,7 +195,7 @@ const PhoneApp = ({ userId = "" }) => {
       text: userInput,
       me: userId !== "admin",
       timestamp: serverTimestamp(),
-      read: false // default to false
+      read: true // default to false
     });
 
     const lowerCaseSender = targetSender.toLowerCase();
@@ -214,7 +214,7 @@ const PhoneApp = ({ userId = "" }) => {
         text: userInput,
         me: false, // since it's from another user
         timestamp: serverTimestamp(),
-        read: true // default to false
+        read: false // default to false
       });
     }
 
@@ -396,32 +396,31 @@ const PhoneApp = ({ userId = "" }) => {
               </li>
             </div>}
 
-          {currentSender &&
-            <ul className="message-list">
-              {messages.map(message =>
-                <div className="messages-list-content">
-                  <li
-                    key={message.id}
-                    className={`message-item ${message.me ? "me" : ""}`}
-                  >
-                    <div className="message-content">
-                      {message.text}
-                    </div>
-                  </li>
-                </div>
-              )}
-            </ul>}
+          <ul className="message-list">
+            {messages.map(message =>
+              <div className="messages-list-content">
+                <li
+                  key={message.id}
+                  className={`message-item ${message.me ? "me" : ""}`}
+                >
+                  <div className="message-content">
+                    {message.text}
+                  </div>
+                </li>
+              </div>
+            )}
+          </ul>
         </div>
-        {currentSender &&
-          <form className="send-form" onSubmit={handleSendMessage}>
-            <input
-              type="text"
-              value={userInput}
-              onChange={handleInputChange}
-              className="blinking-caret"
-            />
-            <button type="submit">➤</button>
-          </form>}
+
+        <form className="send-form" onSubmit={handleSendMessage}>
+          <input
+            type="text"
+            value={userInput}
+            onChange={handleInputChange}
+            className="blinking-caret"
+          />
+          <button type="submit">➤</button>
+        </form>
 
         <div className="symbol-container">
           <div className="symbol">🔲</div>

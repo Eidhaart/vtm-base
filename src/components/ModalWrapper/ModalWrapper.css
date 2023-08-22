@@ -47,7 +47,17 @@
 }
 @media screen and (max-width: 700px) {
   .modal-content {
-    min-width: 400px;
+    width: calc(100vw - 10px);
+    height: 100vh;
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+ 
+  
+  }
+
+  .close-button {
+    right: 20px !important;
   }
 }
 
