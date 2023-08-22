@@ -10,7 +10,7 @@ import {
   serverTimestamp,
   doc,
   updateDoc,
-  getDocs,
+  getDocs
 } from "firebase/firestore";
 import "./PhoneApp.css";
 import Astrid from "./images/Astrid.jpg";
@@ -24,7 +24,7 @@ const firebaseConfig = {
   storageBucket: "vtmapp-77b0b.appspot.com",
   messagingSenderId: "345873452144",
   appId: "1:345873452144:web:52f2ad1c9e95fdb96fb8b5",
-  measurementId: "G-DWRE89XTZD",
+  measurementId: "G-DWRE89XTZD"
 };
 
 // Initialize Firebase
@@ -44,14 +44,14 @@ const PhoneApp = ({ userId = "" }) => {
     "walerian",
     "sebastian",
     "godrick",
-    "allan",
-    "mary",
+    "bartek",
+    "mary"
   ]; // Example user IDs
   const initialSenders = JSON.parse(localStorage.getItem("senders")) || [
     "Astrid",
     "Henrik",
     "Isabella",
-    "Loke",
+    "Loke"
   ];
   const [availableSenders, setAvailableSenders] = useState(() => {
     const savedSenders = localStorage.getItem("senders");
@@ -96,7 +96,7 @@ const PhoneApp = ({ userId = "" }) => {
           if (currentSender === "" || currentSender === data.sender) {
             fetchedMessages.push({
               id: doc.id,
-              ...data,
+              ...data
             });
 
             setSenders([...fetchedSenders]);
@@ -130,16 +130,7 @@ const PhoneApp = ({ userId = "" }) => {
           setAvailableSenders(data.senderList);
         } else {
           // You can set a default list if there's no data for the user
-          setAvailableSenders([
-            "Astrid",
-            "Henrik",
-            "Isabella",
-            "Walerian",
-            "Sebastian",
-            "Allan",
-            "Mary",
-            "Godrick",
-          ]);
+          setAvailableSenders(["Astrid", "Henrik", "Isabella"]);
         }
       });
 
@@ -204,10 +195,13 @@ const PhoneApp = ({ userId = "" }) => {
       text: userInput,
       me: userId !== "admin",
       timestamp: serverTimestamp(),
-      read: false, // default to false
+      read: false // default to false
     });
 
     const lowerCaseSender = targetSender.toLowerCase();
+    function Capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
 
     if (availableUserIds.includes(lowerCaseSender)) {
       const additionalMessagesRef = collection(
@@ -216,11 +210,11 @@ const PhoneApp = ({ userId = "" }) => {
       );
       await addDoc(additionalMessagesRef, {
         userId: lowerCaseSender,
-        sender: targetUserId, // the original user becomes the sender in this context
+        sender: Capitalize(targetUserId), // the original user becomes the sender in this context
         text: userInput,
         me: false, // since it's from another user
         timestamp: serverTimestamp(),
-        read: false, // default to false
+        read: true // default to false
       });
     }
 
@@ -231,7 +225,7 @@ const PhoneApp = ({ userId = "" }) => {
 
   const time = current.toLocaleTimeString("pl-PL", {
     hour: "2-digit",
-    minute: "2-digit",
+    minute: "2-digit"
   });
 
   const [selectedUserId, setSelectedUserId] = useState(userId); // State to manage selected userId when in admin mode
@@ -243,7 +237,7 @@ const PhoneApp = ({ userId = "" }) => {
       // Save to Firestore
       const sendersRef = doc(db, "senders", userId);
       updateDoc(sendersRef, {
-        senderList: updatedSenders,
+        senderList: updatedSenders
       });
 
       return updatedSenders;
@@ -260,7 +254,7 @@ const PhoneApp = ({ userId = "" }) => {
       // Save to Firestore
       const sendersRef = doc(db, "senders", userId);
       updateDoc(sendersRef, {
-        senderList: updatedSenders,
+        senderList: updatedSenders
       });
 
       return updatedSenders;
