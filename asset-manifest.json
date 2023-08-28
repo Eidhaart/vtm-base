@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f97a12b5.css",
-    "main.js": "/static/js/main.11fa423d.js",
+    "main.css": "/static/css/main.0c6d44f1.css",
+    "main.js": "/static/js/main.507f1e2b.js",
     "static/js/787.4c822ba6.chunk.js": "/static/js/787.4c822ba6.chunk.js",
     "static/media/handbook.pdf": "/static/media/handbook.948d7ceadde773f93cdc.pdf",
     "static/media/SwedenCamarilla.png": "/static/media/SwedenCamarilla.ecebc7b8c7265e2ffdcd.png",
@@ -10,7 +10,6 @@
     "static/media/Sebastian.jpg": "/static/media/Sebastian.a71dcc4d9f120e3879ec.jpg",
     "static/media/Sebastian.png": "/static/media/Sebastian.a71dcc4d9f120e3879ec.png",
     "static/media/Allan.jpg": "/static/media/Allan.a25b0b79f2b70f5e88ea.jpg",
-    "static/media/Allan.png": "/static/media/Allan.a25b0b79f2b70f5e88ea.png",
     "static/media/Sztokholm.jpg": "/static/media/Sztokholm.5b0d86abf3511704b7f7.jpg",
     "static/media/Mary.png": "/static/media/Mary.2b6611fb1ef4aa1db8d2.png",
     "static/media/Mary.jpg": "/static/media/Mary.efba9f3ef8b35391ca46.jpg",
@@ -38,6 +37,7 @@
     "static/media/Henrik M.jpg": "/static/media/Henrik M.daf3f9220c7ee0c58a2c.jpg",
     "static/media/Godrick.jpg": "/static/media/Godrick.2a6e152da0e734112a4f.jpg",
     "static/media/Portrait 2.png": "/static/media/Portrait 2.2a6e152da0e734112a4f.png",
+    "static/media/Allan.png": "/static/media/Allan.263476d3fc599be01be8.png",
     "static/media/Isabella.jpg": "/static/media/Isabella.337d371552aeba292fe3.jpg",
     "static/media/MidnightDragons.png": "/static/media/MidnightDragons.0858cf50c1b5b8cdcca5.png",
     "static/media/Jonathan.jpg": "/static/media/Jonathan.99a373cbe14a881776b9.jpg",
@@ -47,6 +47,7 @@
     "static/media/Walerian.jpg": "/static/media/Walerian.1c0b347f7e81ed16f1b1.jpg",
     "static/media/Walerian.png": "/static/media/Walerian.1c0b347f7e81ed16f1b1.png",
     "static/media/NordicRebels.png": "/static/media/NordicRebels.85a2ae8adb253a11ad5f.png",
+    "static/media/LostHighway.png": "/static/media/LostHighway.d73b455903a4034fbb30.png",
     "static/media/diablo.ttf": "/static/media/diablo.7c7cdf114faee5b29531.ttf",
     "static/media/placeholder.jpg": "/static/media/placeholder.c3f945216dc12c9498dc.jpg",
     "static/media/placeholder1.jpg": "/static/media/placeholder1.c3f945216dc12c9498dc.jpg",
@@ -56,12 +57,12 @@
     "static/media/stockholm.png": "/static/media/stockholm.8512e15c200539419aa4.png",
     "static/media/signal.png": "/static/media/signal.9442d0700fa213b45138.png",
     "index.html": "/index.html",
-    "main.f97a12b5.css.map": "/static/css/main.f97a12b5.css.map",
-    "main.11fa423d.js.map": "/static/js/main.11fa423d.js.map",
+    "main.0c6d44f1.css.map": "/static/css/main.0c6d44f1.css.map",
+    "main.507f1e2b.js.map": "/static/js/main.507f1e2b.js.map",
     "787.4c822ba6.chunk.js.map": "/static/js/787.4c822ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f97a12b5.css",
-    "static/js/main.11fa423d.js"
+    "static/css/main.0c6d44f1.css",
+    "static/js/main.507f1e2b.js"
   ]
 }
