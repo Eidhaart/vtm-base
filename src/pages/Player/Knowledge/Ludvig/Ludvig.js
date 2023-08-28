@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "../Knowledge.css";
 import Gang from "../Gangs/Gang";
 import GangSquare from "../Gangs/GangSquare";
-function Mary() {
+
+function Ludvig() {
   const [openedGang, setOpenedGang] = useState(null);
 
   const handleGangClick = gangName => {
@@ -27,16 +28,13 @@ function Mary() {
       img: "NordicRebels"
     },
     {
-      gangName: "Czerwona pięść",
-      origin: "Moskwa, Rosja.",
-      work: "Pranie brudnych pieniędzy, cyberprzestępczość i ochrona.",
-      way:
-        "Często działają poprzez kluby nocne i mają sieć hakerów zarządzających ich działalnością w internecie.",
-      honorableMembers:
-        "Dmitry Volkov, stoicki mężczyzna z głębokimi powiązaniami z rosyjską oligarchią.",
-      region:
-        "Norrmalm i Vasastan. Obszar bardziej centrum z wieloma klubami nocnymi, barakami i innymi punktami, które mogą być używane do prowadzenia nielegalnych operacji.",
-      img: "RedFist"
+      gangName: "Lost Highway",
+      origin: "Sztokholm",
+      work:
+        "Sieć szpiegowska, która działała w ukryciu, przekazując informacje o tym, co dzieje się na ulicach miasta.",
+
+      region: "Sztokholm",
+      img: "LostHighway"
     }
   ];
 
@@ -71,4 +69,4 @@ function Mary() {
   );
 }
 
-export default Mary;
+export default Ludvig;

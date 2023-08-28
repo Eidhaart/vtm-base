@@ -2,6 +2,10 @@
   color: white;
   transition: all .3s;
 }
+.knowledge-content h1 {
+  color: white;
+  text-align: center;
+}
 
 .gang-list {
   display: flex;

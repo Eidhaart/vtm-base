@@ -4,6 +4,7 @@ import MidnightDragons from "./MidnightDragons.png";
 import Nevegantes from "./Nevegantes.png";
 import NordicRebels from "./NordicRebels.png";
 import RedFist from "./RedFist.png";
+import LostHighway from "./LostHighway.png";
 
 function GangSquare({ img, gangName, onClick }) {
   function imgDisplay() {
@@ -18,6 +19,8 @@ function GangSquare({ img, gangName, onClick }) {
         return NordicRebels;
       case "RedFist":
         return RedFist;
+      case "LostHighway":
+        return LostHighway;
       default:
         return null;
     }

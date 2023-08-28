@@ -12,12 +12,13 @@ import Mary from "./Knowledge/Mary/Mary";
 import Allan from "./Knowledge/Allan/Allan";
 import Backpack from "./Patryk/Backpack";
 import backPack from "./Patryk/images/backpack.png";
+import Ludvig from "./Knowledge/Ludvig/Ludvig";
 import {
   query,
   where,
   getDocs,
   collection,
-  onSnapshot,
+  onSnapshot
 } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
@@ -40,7 +41,7 @@ function Player() {
     storageBucket: "vtmapp-77b0b.appspot.com",
     messagingSenderId: "345873452144",
     appId: "1:345873452144:web:52f2ad1c9e95fdb96fb8b5",
-    measurementId: "G-DWRE89XTZD",
+    measurementId: "G-DWRE89XTZD"
   };
 
   const app = initializeApp(firebaseConfig);
@@ -56,8 +57,8 @@ function Player() {
         return <Godrick />;
       case "mary":
         return <Mary />;
-      case "allan":
-        return <Allan />;
+      case "ludvig":
+        return <Ludvig />;
       default:
         return null;
     }

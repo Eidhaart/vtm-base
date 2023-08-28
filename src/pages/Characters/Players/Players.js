@@ -46,7 +46,7 @@ function Players() {
         imgSrc={require("./Patryk/Walerian.png")}
         title={"Walerian Kojtyła"}
         description={
-          "Pochodzący z barcelony toreador, Przez śmiertelników znany jako Julio bousquets Zdążył wypracować sobie szacunek kilku okolicznych gangów.  Obecnie jest właścicielem klubu Sense w sztokholmiskiej dzielnicy södermalm, gdzie awangardowi muzycy kreują niezapomniane melodie. W zakamarkach jego lokalu odbywają się mroczne transakcje i spotkania.Mimo że od czterech lat przebywa w Sztokholmie, cienie jego przeszłości z Barcelony wciąż go doganiają. Jego paranoiczne lęki są ciągłym przypomnieniem o skomplikowanej sieci zobowiązań i intryg.Jest posłuszny Obecnej Księżniczce Sztokholmu, a jej wpływy świadczą o zawiłościach polityki w Kamarilli.Zalety: Kontakty(Handlarz ecstasy), Zasoby(Okoliczne gangi), Samochody, Kanciapa koterii(klub Sense)  "
+          "Jest Polakiem, który wyjechał do Szwecji na stypendium i wykładał na uniwersytecie. Obecnie jest głową kultu Szkarłatny Świt, organizacji skoncentrowanej na poprawie życia biedoty i robotników. Nienawidzi klanu Ventrue. Jego siedziba, choć bogata w wiedzę dotyczącą klanów i historii wampirów, jest w pewien sposób przerażająca . Ma obsesję na punkcie pewnej księgi i, mimo iż posiada ogromną wiedzę na temat klanów i historii wampirów, jest mu obojętne, co dzieje się między Sabatem, Camarillą czy Tremere. Jego głównym celem jest pomoc słabszym. Jest potężnym magiem krwi i ma zdolność spożywania normalnego jedzenia, choć nigdy nie chwalił się, jakie są tego konsekwencje."
         }
         side={"right"}
       />
@@ -81,35 +81,22 @@ function Players() {
         }
         side={"left"}
       />
+
       <CardComponent
         cornerImgSrc={
-          "https://drive.google.com/uc?export=view&id=1OYqf9g1OZQzQ5jUpQlOtuVXvLFGpHkzz"
+          "https://drive.google.com/uc?export=view&id=1DQ22jzHjxLfDlCpXy0p3GHFkxfLIam72"
         }
         level={"Player"}
         imgSrc={require("./Leon/Allan.png")}
-        title={"Allan Lindqvist"}
+        title={"Ludvig „Anioł Ulic” Larsson  "}
         description={
           <div>
             <ReactMarkdown>
-              były detektyw, stanął niedawno po drugiej stronie życia, jako nowo
-              przemieniony wampir. Jego przemiana nie była przypadkowa. Allan
-              przez długi czas miał liczne zatargi z pewnym konkretnym członkiem
-              Drugiej Inkwizycji, co z pewnością wpłynęło na skomplikowanie jego
-              sytuacji w świecie nocy. Był przemieniony przez tajemniczą
-              Isabelle Hedlund, należącą do klanu Tremere. Wciąż zna się
-              doskonale na kryminologii i badaniu ciał, co czyni go cennym dla
-              wampirzego społeczeństwa w dochodzeniach i analizie śmierci.
-              Dodatkowo, jako były detektyw, jest wyjątkowo biegłym strzelcem,
-              co może przydać się w konfliktach z tymi, którzy polują na
-              wampiry. Allan będzie musiał odnaleźć swoje miejsce w tym nowym,
-              mrocznym świecie, zachowując przy tym tożsamość i umiejętności,
-              które zdobył w ludzkim życiu.
+              
             </ReactMarkdown>
             <br />
-            <ReactMarkdown>**Zalety:**</ReactMarkdown>
-            <ul>
-              <li>Laboratorium w schronieniu</li>
-            </ul>
+            <ReactMarkdown></ReactMarkdown>
+            
           </div>
         }
         side={"right"}
@@ -122,7 +109,7 @@ function Players() {
         imgSrc={require("./Marlena/Mary.png")}
         title={"Mary White"}
         description={
-          "Pochodząca z Czech, Mary White posiada niesamowitą fascynację w dziedzinie biologii i genetyki. Ta głęboka pasja pochłania ją całkowicie, granicząc z hiperfiksacją. Jednak tragiczne wydarzenia w rodzinie pozostawiły ją z głębokim traumą. Od tamtej pory Mary nie potrafi rozmawiać i jest bardzo zamknięta w sobie. Jej obecność jest prawie niewyczuwalna - jest niesamowicie cicha i skryta. Mary jest również członkiem klanu Tremere. Zaledwie dwa lata temu została przemieniona przez pewnego czeskiego Tremere o imieniu William. Wampiryzm dodał nowego wymiaru do jej życia, choć wciąż boryka się z własnymi demonami i trudnościami w komunikacji z otoczeniem. Jej wewnętrzny świat jest bogaty i skomplikowany, a jej zainteresowania naukowe mogą okazać się cennym atutem w wampirzym świecie.  "
+          "Pochodząca z Czech, Mary White posiada niesamowitą fascynację w dziedzinie biologii i genetyki. Ta głęboka pasja pochłania ją całkowicie przez co zaczęła się interesować jednym z najbardziej dla niej interesującej technologii zwanej nanorobotami. Jest w stanie poświęcić wszystko by tylko zdobyć informacje na ich temat. Postanowiła z tej pasji wykupić informatora na ten temat. Przez jej fascynacje do badań zjawisk nadprzyrodzonych jest z każdym dniem co raz mocniejsza. Jednak tragiczne wydarzenia w rodzinie pozostawiły ją z głębokim traumą. Od tamtej pory Mary nie potrafi rozmawiać i jest bardzo zamknięta w sobie. Jej obecność jest prawie niewyczuwalna - jest niesamowicie cicha i skryta. Mary jest również członkiem klanu Tremere. Zaledwie dwa lata temu została przemieniona przez pewnego czeskiego Tremere o imieniu William. Wampiryzm dodał nowego wymiaru do jej życia, choć wciąż boryka się z własnymi demonami i trudnościami w komunikacji z otoczeniem. Jej wewnętrzny świat jest bogaty i skomplikowany, a jej zainteresowania naukowe mogą okazać się cennym atutem w wampirzym świecie."
         }
         side={"left"}
       />

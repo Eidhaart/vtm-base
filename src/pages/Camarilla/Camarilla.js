@@ -19,7 +19,7 @@ export default function Camarilla() {
           Maskarady oraz regulowanie interakcji między Kindredami w mieście. Oto
           ogólny opis struktury Camarilli w Sztokholmie:
         </p>
-        <ol>
+        <ul>
           <li>
             <div className="list-item">
               <h2>Książe</h2>
@@ -96,7 +96,7 @@ export default function Camarilla() {
               </p>
             </div>
           </li>
-        </ol>{" "}
+        </ul>{" "}
       </div>
     </div>
   );

@@ -77,23 +77,31 @@ function Sebastian() {
   ];
 
   return (
-    <div>
-      <div className="gang-wrapper">
-        <div className="gang-list">
-          {gangData.map(gang =>
-            <GangSquare
-              key={gang.gangName}
-              gangName={gang.gangName}
-              onClick={handleGangClick}
-              img={gang.img}
-            />
+    <div className="knowledge-content">
+      <div className="societies">
+        <h1>Społeczności</h1>
+        <div className="gang-wrapper">
+          <div className="gang-list">
+            {gangData.map(gang =>
+              <GangSquare
+                key={gang.gangName}
+                gangName={gang.gangName}
+                onClick={handleGangClick}
+                img={gang.img}
+              />
+            )}
+          </div>
+          {gangData.map(
+            gang =>
+              openedGang === gang.gangName &&
+              <Gang
+                key={gang.gangName}
+                isOpen={true}
+                img={gang.img}
+                {...gang}
+              />
           )}
         </div>
-        {gangData.map(
-          gang =>
-            openedGang === gang.gangName &&
-            <Gang key={gang.gangName} isOpen={true} img={gang.img} {...gang} />
-        )}
       </div>
     </div>
   );
